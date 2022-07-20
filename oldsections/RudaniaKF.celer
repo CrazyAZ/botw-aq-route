@@ -1,0 +1,80 @@
+RudaniaKF:
+- _Warp::Shrine::ShaeMosah:
+    line-color: yellow
+- SQ to bludo
+- Daruk Memory:
+    split-type: UserDefined
+    icon: rudania-memory
+    coord: [1708.5,-2451.0614048350653]
+- _Shrine::DaqaKoh
+- drill shaft
+- kill moblins:
+    var-change:
+      IceArrow: -4
+- Enter Rudania:
+    split-type: UserDefined
+    icon: rudania-enter
+    notes: Pick up shafts, screw, springs, ambers/flint if need
+- .gale() escort and inside:
+    gale: 2
+- bow inside rud
+- Fireblight:
+    split-type: UserDefined
+    icon: rudania-done
+    var-change:
+      Arrow: -5
+      ShockArrow: -12
+- shrine bro
+- _Tod::Noon
+- talus quest:
+    var-change:
+      Rupee: 100
+- amber quest:
+    var-change:
+      Rupee: 500
+- rudania quest (no weapon)
+- drillshaft guy
+- _Shrine::KayraMah
+- _Shrine::QuaRaym
+- _Memory::EldinCanyon
+- _Shrine::MirroShaz
+- balloon quest
+- _Shrine::NamikaOzz:
+    var-change:
+      Weapons: 1
+    notes: Get axe and ice spear. Should only have 1 RC left .v(Weapons)/9 weapons
+- wb to nay scale
+- din scale
+- _Shrine::SaasKosah
+- RG shield
+- 3 AA
+- dining hall gourmet meat
+- _Material<Rushroom, 1>
+- wb to zelda study
+- _Memory::HyruleCastle
+- snap airplane
+- BLSS + wb to forest
+- _Shrine::KuhnSidajj
+
+- bf to oaki
+- riddles of hyrule
+- snap sunshroom
+- _Material<Rushroom, 1>
+- korok leaf:
+    var-change:
+      Weapons: 1
+    notes: .v(Weapons)/9 weapons
+- MS (eat before)
+- buy 4 rush:
+    var-change:
+      Rupee: -80
+      Rushroom: 4
+    notes: .v(Rupee) rupees; .v(Rushroom) rushrooms
+- rod quest
+- rabbit quest
+- farm 10 cricket 5 frogs
+- _Shrine::DaagChokah:
+    comment: core
+- _Shrine::KeoRuug
+- _Shrine::MaagHalan
+- wb back do quest

@@ -1,0 +1,12 @@
+TarreyActivateRito:
+- _Warp::Shrine::DahHesho
+- dupe if need
+- _Shrine::RitaagZumo
+- _Shrine::KatosaAug
+- do quests
+- smuggle blue flame
+- buy sword:
+    var-change:
+      Rupee: -1000
+    notes: .v(Rupee) rupees
+- _Shrine::TuKaloh

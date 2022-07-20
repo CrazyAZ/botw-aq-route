@@ -1,0 +1,245 @@
+---
+_project:
+  authors:
+    - iTNTPiston
+  description: All Quests Speedrun
+  name: All Quests
+  url: ""
+  version: 0.2.0
+
+_config:
+  split-format:
+    Shrine: "[{{%03 Shrine}}] {{_}}"
+    Warp: "{{%04 Rupee}} {{_}}" # Checking rupee during warp for quests
+
+_route:
+  - Plateau: __use__ Plateau
+  - Hateno: __use__ Kak1Hateno
+  - Medoh + Naboris: 
+    - __use__ Medoh
+  - rest order:
+    - _Warp::Shrine::MoggLatan
+    - _Shrine::KuhTakkar
+    - _Shrine::ShoDantu
+    - _Shrine::SasaKai
+    - _Shrine::DaqoChisay
+    - _Shrine::DakoTah
+    - Kara Kara:
+        icon: location
+        split-type: UserDefined
+    - _Warp::Shrine::KehNamut
+    - _Shrine::JolooNah
+    - _Shrine::JeeNoh
+    - _Shrine::DahKaso
+    - _Warp::Shrine::KuhTakkar
+    - _Warp::Shrine::DaqoChisay
+    - Urbosa Memory:
+        split-type: UserDefined
+        icon: naboris-memory
+        coord: [-3886.5,2966.704616756846]
+    - Enter Naboris:
+        split-type: UserDefined
+        icon: naboris-enter
+    - Thunderblight:
+        split-type: UserDefined
+        icon: naboris-done
+    - hundo talking and ice quest
+    - _Warp::Shrine::TalohNaeg
+    - pumpkin, impa
+    - _Shrine::DowNaeh
+    - _Memory::LanayruRoad
+    - Enter Fish Drama:
+        icon: npc-zora-female
+        split-type: UserDefined
+    - _Shrine::NeezYohma
+    - Mipha Memory:
+        split-type: UserDefined
+        icon: ruta-memory
+        coord: [3302.5,-471.74772207869955]
+    - Enter Ruta:
+        split-type: UserDefined
+        icon: ruta-enter
+    - Waterblight:
+        split-type: UserDefined
+        icon: ruta-done
+    - _Shrine::DagahKeek
+    - _Shrine::MezzaLo
+    - _Shrine::SohKofi
+    - _Shrine::TahMuhl
+    - _Shrine::MoaKeet
+    - _Shrine::SahDahaj
+    - _Shrine::ZeKasho
+    - _Shrine::DahHesho
+    - tarrey
+    - _Warp::Shrine::SohKofi
+    - _Shrine::ShehRata
+    - _Shrine::NamikaOzz
+    - _Shrine::MirroShaz
+    - _Shrine::QuaRaym
+    - _Shrine::ShaeMosah
+    - _Shrine::ShoraHah
+    - _Shrine::GoraeTorr
+    - _Shrine::ZunaKai
+    - _Memory::SpringofPower
+    - _Shrine::TutsuwaNima
+    - tarrey
+    - _Shrine::KatosaAug
+    - _Shrine::TuKaloh
+    - _Warp::Shrine::ShaWarvo
+    - _Shrine::MakaRah
+    - _Shrine::MozoShenno
+    - _Shrine::ShadaNaw
+    - _Shrine::HiaMiu
+    - _Shrine::ToQuomo
+    - _Warp::Shrine::ShadaNaw
+    - _Shrine::RokUwog
+    - _Shrine::ShaGehma
+    - _Shrine::QazaTokki
+    - _Shrine::KetohWawai
+    - _Warp::Shrine::KuhTakkar
+    - _Shrine::KeehaYoog
+    - _Shrine::KemaKosassa
+    - _Shrine::KemaZoos
+    - _Shrine::ThoKayu
+    - _Shrine::HawaKoth
+    - _Shrine::RaqaZunzo
+    - _Memory::KaraKaraBazaar
+    - _Shrine::KayNoh
+    - _Shrine::KorshOhu
+    - _Shrine::MisaeSuma
+    - _Shrine::DilaMaag
+    - _Shrine::SumaSahma
+    - _Shrine::IshtoSoh
+    - _Shrine::ShoqaTatone
+    - _Shrine::KaoMakagh
+    - _Warp::Shrine::ShaeMosah
+    - Daruk Memory:
+        split-type: UserDefined
+        icon: rudania-memory
+        coord: [1708.5,-2451.0614048350653]
+    - _Shrine::DaqaKoh
+    - drill shaft
+    - Enter Rudania:
+        split-type: UserDefined
+        icon: rudania-enter
+    - Fireblight:
+        split-type: UserDefined
+        icon: rudania-done
+    - _Shrine::KayraMah
+    - _Memory::EldinCanyon
+    - _Shrine::KuhnSidajj
+    - _Shrine::DaagChokah
+    - _Shrine::KeoRuug
+    - _Shrine::MaagHalan
+    - kf quest
+    - _Shrine::SaasKosah
+    - _Memory::HyruleCastle
+    - _Memory::IrchPlain
+    - _Shrine::ZaltaWa
+    - _Shrine::NoyaNeha
+    - _Warp::Shrine::DahHesho
+    - tarrey
+    - _Shrine::KenaiShakah
+    - _Shrine::KahMael
+    - _Shrine::RitaagZumo
+    - _Warp::VahMedoh
+    - _Shrine::BareedaNaag
+    - _Shrine::VooLota
+    - _Shrine::KahOkeo
+    - _Memory::AncientColumns
+    - _Shrine::TenaKosah
+    - _Shrine::MijahRokee
+    - _Shrine::ShaeLoya
+    - _Shrine::TohYahsa
+    - _Shrine::SheemDagoze
+    - _Memory::SanidinPark
+    - _Shrine::RotaOoh
+    - _Memory::LakeKolomo
+    - _Shrine::KaamYatak
+    - _Shrine::KatahChuki
+    - _Memory::SacredGrounds
+    - _Memory::HyruleField
+    - _Shrine::HilaRao
+    - _Shrine::WahgoKatta
+    - _Shrine::BoshKala
+    - _Memory::WestNecluda
+    - _Shrine::YaNaga
+    - _Warp::Shrine::NeezYohma
+    - zd quests
+    - tarrey
+    - _Warp::Shrine::TalohNaeg
+    - _Shrine::LaknaRokee
+    - _Shrine::KamUrog
+    - _Shrine::TotoSah
+    - _Memory::AshSwamp
+    - _Shrine::HaDahamar
+    - _Shrine::ReeDahee
+    - _Shrine::SheeVaneer
+    - _Shrine::SheeVenath
+    - _Shrine::QukahNata
+    - _Shrine::ShodaSah
+    - _Shrine::ShaeKatha
+    - _Shrine::PumaagNitae
+    - _Shrine::ShaiUtoh
+    - _Shrine::YahRin
+    - _Shrine::TawaJinn
+    - _Shrine::ChaasQeta
+    - _Shrine::KorguChideh
+    - _Shrine::KahYah
+    - _Shrine::MuwoJeem
+    - hateno 2
+    - _Shrine::TahnoOah
+    - _Shrine::JitanSami
+    - _Shrine::ShaiYota
+    - _Shrine::RuccoMaag
+    - _Warp::Shrine::DahHesho
+    - tarrey wedding
+    - _Warp::Shrine::ShadaNaw
+    - _Shrine::GomaAsaagh
+    - _Shrine::LannoKooh
+    - _Shrine::GeeHarah
+    - _Shrine::RinOyaa
+    - _Shrine::MonyaToma
+    - _Shrine::MaagNorah
+    - _Shrine::RonaKachta
+  
+
+  #   - __use__ BigHorse
+  # - Naboris:
+  #   - __use__ Naboris
+  # - Ruta:
+  #   - __use__ Kak2Ruta
+  #   - __use__ TarreyActivateGoron
+  # - Hebra:
+  #   - __use__ Hebra
+  # - Gerudo:  __use__ Gerudo
+  # - Eldin:
+  #   - __use__ Eldin
+  # - Bloodmoon:
+  #   - __use__ TarreyActivateGerudo
+  #   - __use__ GerudoTown
+  #   - __use__ Bloodmoon
+  # - Rudania:
+  #   - __use__ RudaniaKF
+  # - Rito:
+  #   - __use__ TarreyActivateRito
+  #   - __use__ Rito
+  # - Central:  
+  #   - __use__ Central
+  #   - __use__ TarreyActivateZora
+  #   - __use__ ZDQuests
+  # - Hateno:
+  #   - __use__ TarreyActivateHateno
+  #   - __use__ Kak3FinalMemory
+  #   - __use__ Hateno
+  # - Cleanup:
+  #   - __use__ SpringOfCourage
+  #   - __use__ TarreyFinal
+  #   - __use__ ForgottenTemple
+    - _Warp::Shrine::KuhnSidajj
+    - Calamity:
+        icon: calamity
+        split-type: UserDefined
+    - Dark Beast:
+        icon: ganon
+        split-type: UserDefined

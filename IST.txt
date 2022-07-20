@@ -1,0 +1,157 @@
+# Plateau
+Initialize 1 slate
+Get 6 hylianshroom
+# need 6 weapon at hateno
+Get 2 apple
+Get 1 torch 1 wood axe
+Equip wood*axe
+get 6 spicy pepper
+get potlid
+Get trav*bow
+#rng
+Get 5 normal arrow
+Get 4 orb 1 glider
+
+# PLAT DONE
+
+# Satori Low
+Get 7 Lotus
+Get 3 endura carrot
+# Satori High
+Eat 4 hylianshroom 4 spicy pepper
+Get 2 rushroom
+# Mogg Latan
+Get orb
+Get 2 Wood 10 durian
+# blss to gate
+Get 1 royalclaymore 1 guard*claymore
+Get razorshroom
+Get nay*fang
+Get 3 ancient arrow 
+Get 1 triboomerang 1 steellizalshield
+With 5 Lotus
+Cook simmer
+Eat simmer
+# Kill up to 3 stalkers, order of picking up parts doesn't matter
+Get 1 ancient shaft 2 ancient spring  2 ancient screw
+Get fairy
+# Kaya Wan, kill staker with arrow
+Get 1 knight*sword 1 core 1 orb
+# Daka Tuss
+Get 1 orb
+# Taloh Naeg
+Get 1 orb
+# Hestu, RGC kill
+# WB to 3 ore deposits get amber (don't break the rare one)
+Get 1 amber
+# BLSS to shop
+Remove 8 durian
+# wb to cloth shop, get autosave
+Save as BackupAutosave
+# Glitch start
+Drop potlid
+with 2 hylianshroom 2 spicypepper 2 apple 2 durian 2 screw
+Break 5 Slots
+Save
+with 2 Spring 2 wood 2 rush 2 Lotus 3 enduracarrot
+Break 5 Slots
+# Regular IST Dupe
+Reload
+# Check 3 shields to make sure dupe worked
+Dnp 1 core 1 Shaft 2 Lotus 3 enduracarrot 2 razorshroom
+# Drop amber no need to pick up
+Drop amber from slot 2
+Eat fairy from slot 2
+Save
+Reload
+# WB to statue
+Sell 32 orb
+# lit cooking pot with arrow
+# The order you cook DOES matter
+with 5 enduracarrot
+cook wildgreen
+with 4 Lotus 1 nay*fang
+cook simmer
+With 4 Razorshroom 1 Naydra Fang
+Cook 1 mushroom skewer
+Drop 2 core 2 Shaft 2 Spring
+Pickup 1 core 2 Shaft 2 Spring
+Eat enduracarrot
+
+# FIRST HALF DONE
+
+Equip torch
+# go to purah get bombs+ and stasis+
+Remove 3 Shaft 3 Core
+#wb to shop
+# Set item order for corruption, order is 3x999, AMBER, SPRING, FAIRY
+dnp 1 amber
+dnp 4 Spring
+dnp 1 fairy
+# Set equipment order for corruption
+Drop 1 steel lizal shield
+Equip steellizalshield
+# Drop all weapon except RGC
+Drop 1 torch 1 wood axe 1 royalclaymore 1 knight sword 1 triboomerang
+Equip guard*claymore
+
+# CHECK INVENTORY MATCH
+
+Save
+# Set up order for file 2
+# pick up the dropped weapons, order does NOT matter
+Pickup 1 torch 1 wood axe 1 knight sword 1 triboomerang 1 royal claymore 
+# unequip all weapon
+Unequip royalguardsclaymore
+# Drop/Eat every thing after arrows
+Drop steellizalshield
+Drop all wood all rush all Spring all amber all fairy all Shaft
+Eat 1 simmer 1 wildgreen 1 mushroomskewer
+#wb to shrine for autosave, make sure all weapon unequiped
+Save As AutoSave
+# drop bow and reload
+Drop trav*bow
+Reload
+Shoot 1 arrow
+Save
+Reload AutoSave
+# Set transfer for second round of corruption
+Drop trav*bow
+# Drop all except spring
+Drop all rush all wood all Shaft all amber all fairy
+# eat everything but endura food
+Eat 1 simmer 1 mushroom skewer
+# Equip the last weapon, whatever it is
+Equip royalclaymore
+Reload
+Save
+# drop the item you have in first and last slot, should be fairy + either wood or rushroom
+Eat all fairy 
+dnp 4 Spring
+Reload
+# CORRUPTION DONE, GG
+Drop 5 Shaft
+Sell all Shaft
+sell 1500 simmer
+Eat mushroomskewer
+Pickup 5 Shaft
+# WB to bolson, talk, get hammer
+Get hammer
+# if you only have 2 amber per stack, merge the stack and save+reload, you will have 8 instead of 6
+# you will have 9 if you have 3 per stack, so 1 short but should be able to get it during yunobo escort
+Save
+Drop 5 Shaft
+Reload
+# merge stacks between talking to bolson
+Drop 4 Spring
+Pickup 4 Spring
+Drop 4 Spring From Slot 2
+Pickup 4 Spring
+Drop 4 Amber
+Pickup 4 Amber
+Drop 4 Amber From Slot 2
+Pickup 4 Amber
+# when all done, save and close game when bolson is walking to his position
+Save
+Close Game
+Reload

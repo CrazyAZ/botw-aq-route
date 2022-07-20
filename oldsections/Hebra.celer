@@ -1,0 +1,44 @@
+Hebra:
+- _Warp::Shrine::ShaWarvo:
+    line-color: yellow
+- .dir(.N)
+- _Shrine::MakaRah:
+    time-override: 60
+- +Run out:
+    coord: [-3984,-2549.3553557229257]
+- +.dir(E) HIGH:
+    coord: [-3859,-2534.3494133195322]
+- +.dir(N.) + .dir(E) midair:
+    movements:
+    - to: [-3807,-2720.4230991216104]
+    - to: [-3655,-2710.419137519348]
+- +.dir(N) + .dir(N) midair:
+    coord: [-3575,-3031.5463049519667]
+- _Shrine::MozoShenno
+- .dir(E>) + .dir(E)
+- _Boss::Talus::Frost:
+    coord: [-3078,-2933.6109706578454]
+    fury: 3
+    comment: .fury()
+    notes: get flints
+    var-change:
+      RupeeItem: 280 # guaranteed sapphire
+- .dir(W) + .dir(E) updraft + .dir(N)
+- _Shrine::ShadaNaw
+- BLSS:
+   time-override: 45
+- _Shrine::HiaMiu
+- .dir(E) + clip
+- _Shrine::ToQuomo
+- snap
+- _Warp::Shrine::ShadaNaw:
+    line-color: "#00ff00"
+- .dir(E) Turn
+- _Shrine::RokUwog
+- .dir(N) + .dir(<E) Turn
+- _Shrine::ShaGehma
+- .dir(E>) Turn
+- _Shrine::QazaTokki
+- .dir(S) up + BLSS
+- _Shrine::KetohWawai:
+    comment: core if forgor

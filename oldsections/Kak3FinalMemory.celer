@@ -1,0 +1,18 @@
+Kak3FinalMemory:
+- _Warp::Shrine::TalohNaeg:
+    line-color: cyan
+- make noon not raining
+- fairy fountain:
+    var-change:
+      Rupee: -500
+    notes: .v(Rupee) rupees
+- do hundo style quests except arrow quest
+- _Shrine::TalohNaeg
+- _Shrine::LaknaRokee:
+    notes: traveller sword and arrow quest during waiting, SELL to 1500
+    var-change:
+      Rupee: 1500
+- _Shrine::KamUrog
+- make noon
+- talk to doc
+- _Memory::AshSwamp

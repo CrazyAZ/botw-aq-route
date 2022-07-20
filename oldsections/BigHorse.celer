@@ -1,0 +1,20 @@
+BigHorse:
+- _Warp::Shrine::OwaDaim:
+    line-color: "#00ff00"
+- ordinal wb to big horse
+- use endura food
+- do quest:
+    var-change:
+      Rupee: 100
+    notes: .v(Rupee) rupees
+    movements:
+    - to: [-1208,2652]
+    - to: [-636,3722]
+    - to: [-200,3500]
+    time-override: 120
+- cook sppeed + hearty
+- wb .dir(E)
+- shock shrooms:
+    var-change:
+      ShockArrow: -3
+- _Material<Rushroom, 13>

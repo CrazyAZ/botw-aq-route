@@ -1,0 +1,41 @@
+Eldin:
+- _Warp::Shrine::DagahKeek:
+    line-color: "red"
+- .dir(N) monument
+- monument
+- wb to tree
+- blss to south mine:
+    time-override: 120
+- get ambers and flints if need
+- catch lizards:
+    time-override: 30
+- _Tod::Night
+- talk to greyson
+- .dir(N) + .dir(N) to goron city
+- buy pants:
+    var-change:
+      Rupee: -700
+    notes: .v(Rupee) rupees
+- buy goron spice:
+    var-change:
+      Rupee: 16
+    notes: .v(Rupee) rupees
+- talk to bludo
+- .dir(N>)
+- _Shrine::ShaeMosah
+- .dir(<N) Turn
+- rescue yunobo
+- _Boss::Talus::Igneo:
+    coord: [1337,-3051.971476463712]
+    fury: 3
+    comment: .fury()
+- _Shrine::ShoraHah
+- wb down snap skeleton
+- wb to Gorae Torr
+- .gale() quest:
+    gale: 1
+- _Shrine::GoraeTorr
+- look sky .dir(E)
+- xenoblade chest
+- _Shrine::ZunaKai
+- kilton

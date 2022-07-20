@@ -1,0 +1,49 @@
+Kak2Ruta:
+- _Warp::Shrine::TalohNaeg:
+    line-color: "#00ff00"
+- pumpkin man
+- talk to impa activate mem:
+    time-override: 15
+- snap blupee
+- blss from stump
+- _Shrine::DowNaeh
+- .dir(N>) + .dir(<E) Turn
+- _Memory::LanayruRoad
+- snap lynel
+- wb + blss to monument 1:
+    time-override: 35
+- .dir(W)
+- monumen 2
+- .dir(<W)
+- monument 3
+- .dir(<N)
+- monumen 4
+- .dir(E>)
+- mon 5
+- .dir(N) + .dir(N)
+- fish drama
+- buy 4 violets:
+    var-change:
+      Lotus: 4
+      Rupee: -160
+    notes: .v(Rupee) rupees; .v(Lotus) lotus
+- _Shrine::NeezYohma
+- Mipha Memory:
+    split-type: UserDefined
+    icon: ruta-memory
+    coord: [3302.5,-471.74772207869955]
+- Enter Ruta:
+    split-type: UserDefined
+    icon: ruta-enter
+    var-change:
+      ShockArrow: -4
+    time-override: 30
+- .gale():
+    gale: 1
+- Waterblight:
+    split-type: UserDefined
+    icon: ruta-done
+    var-change:
+      ShockArrow: -2
+      BombArrow: -8
+    time-override: 180

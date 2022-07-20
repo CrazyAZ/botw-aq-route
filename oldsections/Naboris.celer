@@ -1,0 +1,102 @@
+Naboris:
+- _Warp::Shrine::MoggLatan:
+    line-color: yellow
+- BLSS
+- _Tod::Noon:
+    comment: Sasa Kai
+- wb to KT
+- farm up to 10 luminous ores while at KT
+- get 5 FA and use 7 FA:
+    var-change:
+      FireArrow: 2
+- _Shrine::KuhTakkar
+- farm luminous at sho dantu if not enough
+- _Shrine::ShoDantu
+- wb to kass
+- _Shrine::SasaKai
+- blss to gerudo
+- _Shrine::DaqoChisay
+- _Shrine::DakoTah
+- _Material<Rushroom, 4>
+- talk to sesami
+- _Shrine::KayNoh
+- wb to kara kara buy cloths:
+    var-change:
+      Rupee: -600
+- wb back to gerudo town
+- sell 3 armor, sapphire and ruby:
+    var-change:
+      RupeeItem: -2270
+      Rupee: 2270
+- buy all arrows except bomb (buy 1):
+    var-change:
+      ShockArrow: 30
+      FireArrow: 30
+      IceArrow: 30
+      Arrow: 15
+      BombArrow: 20
+      Rupee: -1920
+    notes: .v(Arrow) arrow; .v(IceArrow) ice arrows; .v(FireArrow) fire arrows; .v(ShockArrow) shock arroes; .v(BombArrow) bomb arrows; .v(Rupee) rupees
+- talk to riju
+
+- _Warp::Shrine::KehNamut:
+    line-color: yellow
+- BLSS to firerod
+- _Equipment::Weapon<Fire Rod>:
+    var-change:
+      Weapons: 1
+    comment: .v(Weapons)/9
+- wb to darner
+- wb to friend on top
+- friend 2
+- _Shrine::JolooNah:
+    time-override: 90
+- friend 3
+- friend 4
+- .dir(<<S) Turn
+- _Shrine::JeeNoh
+- .dir(N>) Turn + .dir(N) Turn
+- _Shrine::DahKaso:
+    comment: core
+- .dir(S)
+- horse quest:
+    var-change:
+      Rupee: 300
+    notes: .v(Rupee) rupees
+    time-override: 60
+
+- _Warp::Shrine::KuhTakkar
+- duplex bow inside hideout
+- kill kohga:
+    var-change:
+      Arrow: -2
+    notes: Use second RC on phase 2 in case it breaks early; .v(Weapons)/9 weapons
+- _Warp::Shrine::DaqoChisay
+- wb to riju
+- Urbosa Memory:
+    split-type: UserDefined
+    icon: naboris-memory
+    coord: [-3886.5,2966.704616756846]
+- do hundo naboris entry:
+    var-change:
+      BombArrow: 15
+
+- Enter Naboris:
+    split-type: UserDefined
+    icon: naboris-enter
+    var-change:
+      BombArrow: 14
+- .gale():
+    gale: 2
+- Thunderblight:
+    split-type: UserDefined
+    icon: naboris-done
+    var-change:
+      ShockArrow: -4
+      Arrow: -9
+- do hundo talking
+- do sand seal race:
+    var-change:
+      Rupee: -50
+    notes: .v(Rupee) rupees
+- _Shrine::RaqaZunzo

@@ -1,0 +1,14 @@
+Bloodmoon:
+- _Warp::Shrine::MoggLatan:
+    line-color: "#00ff00"
+- talk to kass
+- _Shrine::MijahRokee
+- _Shrine::ShaeLoya
+- shrine guy
+- _Tod::Noon
+- fairy guy twice:
+    var-change:
+      Rupee: 500
+    notes: .v(Rupee) rupees
+- _Shrine::TohYahsa
+- _Shrine::DunbaTaag

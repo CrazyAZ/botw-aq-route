@@ -1,0 +1,12 @@
+ZDQuests:
+- _Warp::Shrine::NeezYohma
+- frog
+- luminous
+- letter:
+    var-change:
+      Rupee: 300
+    notes: .v(Rupee) rupees
+- hinox
+- monuments
+- old guy
+- lynel

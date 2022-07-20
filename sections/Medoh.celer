@@ -1,0 +1,42 @@
+Medoh:
+- _Warp::Shrine::MoggLatan:
+    line-color: yellow
+- BLSS to rito
+- _Npc::Rito<Chief>:
+    coord: [-3626.75,-1843.5]
+- Revali Memory:
+    split-type: UserDefined
+    icon: medoh-memory
+    hide-icon-on-map: true
+- _Shop<Material Shop>:
+    comment: Wheat Sugar Butter Shroom
+- .dir(<N) Turn
+- _Shrine::ShaWarvo
+- .dir(N.)
+- _Equipment::Bow<10 Arrows + Swallow>:
+    coord: [-3793.25,-2317.5]
+- _Tod::Morning:
+    notes: This is supposed to set both TOD for darner and cycle for Sasa Kai, which is a 55 second window from 14:55 to 15:50. So be mindful of TOD
+- _Equipment::Bow<Falcon>:
+    hide-icon-on-map: true
+- Enter Medoh:
+    split-type: UserDefined
+    icon: medoh-enter
+- Windblight:
+    split-type: UserDefined
+    icon: medoh-done
+    notes: Eat ATK food. falcon 3BA + 6AA all headshots. Use one endura food 
+- _Material<Cold Darner>:
+    movements:
+    - to: [-3607.75,-1853.25]
+      warp: true
+    comment: On deck, right after medoh
+- _Equipment::Bow<Great Eagle Bow>:
+    hide-icon-on-map: true
+- _Shrine::AkhVaquot
+- BLSS to voltfin, drown:
+    movements:
+    - to: [-3009,-2138]
+      away: true
+- BLSS
+- _Shrine::DunbaTaag
