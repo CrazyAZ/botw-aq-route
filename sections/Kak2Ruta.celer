@@ -47,15 +47,14 @@ Kak2Ruta:
     split-type: UserDefined
     icon: ruta-memory
     coord: [3302.5,-471.74772207869955]
+- .dir(E) + .dir(E>>)
 - Enter Ruta:
     split-type: UserDefined
     icon: ruta-enter
+    coord: [3596.5,-342.79736404428513]
 - .gale():
     gale: 1
 - Waterblight:
     split-type: UserDefined
     icon: ruta-done
-    var-change:
-      ShockArrow: -2
-      BombArrow: -8
-    time-override: 180
+    coord: [3675,-188.23615728933328]

@@ -1,0 +1,48 @@
+Eldin:
+- _Warp::Shrine::DagahKeek:
+    line-color: "#00ff00"
+- .dir(N) + midair
+- .loc(Monument):
+    coord: [3224.5,-742.9558281347754]
+-  .dir(W>) + .dir(W) + .dir(W)
+- .loc(Monument):
+    coord: [3707.5,-523.3688709651187]
+- .dir(N) to tree:
+    coord: [3745,-630.4112601093257]
+    notes: Pick up the shock arrows so Link doesn't get distracted
+- BLSS to Eldin memory
+- _Memory::EldinCanyon:
+    time-override: 60
+- .dir(E) Turn
+- _Shrine::QuaRaym
+- .dir(N) + .dir(N) to .loc(South Mine):
+    coord: [1658,-1963.0144598482575]
+- _Material<10 Lizards>:
+    hide-icon-on-map: true
+    time-override: 30
+    notes: Get to 3-4 flints here
+- _Npc<Lizard Guy>:
+    hide-icon-on-map: true
+- _Npc<Greyson>:
+    hide-icon-on-map: true
+    notes: Make night if past 9PM
+- wb to bludo
+- talk to bludo
+- .dir(N>)
+- _Shrine::ShaeMosah
+- .dir(<N) Turn
+- rescue yunobo
+- _Boss::Talus::Igneo:
+    coord: [1337,-3051.971476463712]
+    fury: 3
+    comment: .fury()
+- _Shrine::ShoraHah
+- wb down snap skeleton
+- wb to Gorae Torr
+- .gale() quest:
+    gale: 1
+- _Shrine::GoraeTorr
+- look sky .dir(E)
+- xenoblade chest
+- _Shrine::ZunaKai
+- kilton

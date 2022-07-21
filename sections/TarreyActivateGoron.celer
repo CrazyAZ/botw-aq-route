@@ -1,0 +1,110 @@
+TarreyActivateGoron:
+- .dir(N>) delay:
+    movements:
+    - to: [3284.5,-430.83222614419265]
+      warp: true
+- finish quest
+- _Chest<Lightscale Trident>:
+    coord: [3331.5,-539.2848849971588]
+    notes: Throw away after shrine
+- _Npc::ZoraMale<Diving Quest>:
+    coord: [3292.625,-519.5906331003753]
+    notes: Doing quest now so we don't need zora armor later. Talk to shrine girl after diving first so she doesn't run too far
+- _Npc::ZoraFemale<Shrine Girl>:
+    coord: [3302.75,-518.9653855002334]
+- _Npc::ZoraMale<Fronk>:
+    coord: [3340.375,-535.4719221439664]
+- _Npc::ZoraFemale<Lynel Lady>:
+    coord: [3349.375,-509.8367705381688]
+    time-override: 40 # for 4 quests
+- .dir(W)
+- _Shrine::DagahKeek
+- .dir(S>)
+- _Boss::Hinox::Blue:
+    coord: [2923,-290.92037179452836]
+    fury: 3
+    comment: .fury()
+- .dir(S>) Turn (can super)
+- .loc(Monument):
+    coord: [2838.5,188.50332156742115]
+- .dir(S>) to deer:
+    coord: [2492,339.23175373234244]
+- Ride to pedestal:
+    time-override: 20
+- _Npc<Kass>:
+    coord: [2576,481.28800848446645]
+- _Shrine::MezzaLo
+- .dir(N>) TS
+- _Npc::ZoraFemale<Letter Girl>:
+    coord: [2749,-88.23029102874534]
+- Bomb Letter
+- .dir(E)
+- .loc(Monument):
+    coord: [2867,-71.59968009139811]
+- Run to the other side
+- .loc(Monument):
+    coord: [2879,-33.08442792268852]
+- .dir(W>), Letter BLSS:
+    movements:
+    - to: [2732.5,-82.47801310744399]
+    - to: [2661,-147.41660827237956]
+    - to: [2603,-161.9223525956595]
+    - to: [2237,-198.7975621243986]
+    - to: [1780,-78.75002289725126]
+    time-override: 30
+- .dir(<E) TS
+- _Shrine::SohKofi
+- Elevator BLSS
+- _Shrine::ShehRata
+- .dir(<N) Turn (super)
+- Kill .enemy(Octorok):
+    notes: Get Octoballoon. Not guaranteed, 84%
+    coord: [1257,-1111.1588602507172]
+- SQ to shrine
+- _Shrine::MirroShaz:
+    time-override: 40
+- _Tod::Noon:
+    comment: Make 12pm-3pm
+    notes: For Balloon Girl (7AM-8PM), Darner Girl (8AM-8PM), Greyson (>9PM), Kilton+Xenoblade (<4AM). If it's between 12PM to 3PM, you can skip this one and make it night at Greyson
+- .dir(<W) Turn
+- _Npc<Balloon Girl>:
+    coord: [1066,-1136.1687642563725]
+- .dir(S>) + .dir(E)
+- _Shrine::NamikaOzz:
+    time-override: 30
+- .gale() + BLSS:
+    gale: 1
+    coord: [2052,-726.1045862997235]
+- _Shrine::TahMuhl
+- .dir(E) + .dir(NE) to stable
+- _Npc<Shrine Guy>:
+    coord: [2610,-1140.0332774590024]
+- .dir(<E) to shrine
+- _Shrine::MoaKeet
+- .dir(N) Turn to shrine
+- _Shrine::SahDahaj
+- .dir(E) + Run + .dir(<E)
+- _Shrine::ZeKasho
+- .dir(E) Turn
+- _Material<Armoranth>:
+    coord: [3256,-1740.5062927691179]
+- SQ to stable
+- _Npc<Darner Quest>:
+    coord: [3142,-1690.6525216870973]
+    notes: Talk to big sis give flower, 2ng option, then little sis, big sis, little sis, big sis
+    time-override: 30
+- .dir(E) super + midairs
+- _Material<2 Apples>:
+    hide-icon-on-map: true
+    comment: From the korok
+    notes: 1 for baked apple, 1 for fruit cake
+- _Shrine::DahHesho
+- .dir(NW) to stalkers:
+    notes: Land in the middle of them so you attract both, use falcon bow and aim a tiny bit above eye
+- Kill .enemy(2 Stalkers)
+- _Snap::Quest<Guardian Stalker>:
+    coord: [3654,-1552.409629673918]
+- .dir(E) to tarrey town:
+    coord: [3984.5,-1597.5796282054716]
+- _Npc<Hudson>:
+    comment: Twice

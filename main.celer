@@ -18,47 +18,24 @@ _route:
   - Medoh + Naboris: 
     - __use__ Medoh
     - __use__ Naboris
-  - Ruta + Akkala:
+  - Ruta + Eldin:
     - __use__ Kak2Ruta
     - __use__ TarreyActivateGoron
+    - __use__ Eldin
 
   - rest order:
-    - _Warp::Shrine::TalohNaeg
-    - pumpkin, impa
-    - _Shrine::DowNaeh
-    - _Memory::LanayruRoad
-    
-    - _Shrine::NeezYohma
-    - Mipha Memory:
-        split-type: UserDefined
-        icon: ruta-memory
-        coord: [3302.5,-471.74772207869955]
-    - Enter Ruta:
-        split-type: UserDefined
-        icon: ruta-enter
-    - Waterblight:
-        split-type: UserDefined
-        icon: ruta-done
-    - _Shrine::DagahKeek
-    - _Shrine::MezzaLo
-    - _Shrine::SohKofi
-    - _Shrine::TahMuhl
-    - _Shrine::MoaKeet
-    - _Shrine::SahDahaj
-    - _Shrine::ZeKasho
-    - _Shrine::DahHesho
-    - tarrey
-    - _Warp::Shrine::SohKofi
-    - _Shrine::ShehRata
-    - _Shrine::NamikaOzz
-    - _Shrine::MirroShaz
-    - _Shrine::QuaRaym
-    - _Shrine::ShaeMosah
-    - _Shrine::ShoraHah
-    - _Shrine::GoraeTorr
-    - _Shrine::ZunaKai
-    - _Memory::SpringofPower
-    - _Shrine::TutsuwaNima
+
+    # - _Warp::Shrine::DagahKeek:
+    #     line-color: "#00ff00"
+    # - _Shrine::QuaRaym
+    # - _Shrine::ShaeMosah
+    # - _Shrine::ShoraHah
+    # - _Shrine::GoraeTorr
+    # - _Shrine::ZunaKai
+
+    # - _Memory::SpringofPower
+    # - _Shrine::TutsuwaNima
+    - _Warp::Shrine::DahHesho
     - tarrey
     - _Shrine::KatosaAug
     - _Shrine::TuKaloh
@@ -184,8 +161,7 @@ _route:
   # - Hebra:
   #   - __use__ Hebra
   # - Gerudo:  __use__ Gerudo
-  # - Eldin:
-  #   - __use__ Eldin
+
   # - Bloodmoon:
   #   - __use__ TarreyActivateGerudo
   #   - __use__ GerudoTown
