@@ -1,8 +1,8 @@
 Kak1Hateno:
 - BLSS to Satori Lotus
-- _Material<Lotus, 7>:
+- _Material<Lotus, 5>:
     coord: [-2542,670.3406977945551]
-    notes: 2 for IST, 5 for an early speedfood
+    notes: 2 for IST, 3 for an early speedfood
     line-color: red
 - .dir(E) + .dir(N):
     coord: [-2346,687.5794301253582]
@@ -10,9 +10,10 @@ Kak1Hateno:
     coord: [-2312.5,527.5160444891626]
 - .dir(N):
     coord: [-2299.5,451.48593631196854]
-- _Material<Rushroom, 2>
-- _Korok::R60
+- _Material<Rushroom, 4>:
+    notes: 2 for IST, 2 for early speedfood
 - _Shrine::MoggLatan
+- _Korok::R60
 - .dir(.E) SQ
 - _Material<2 Wood 10 Durian>:
     coord: [-2187.5,440.4815785494802]
@@ -21,6 +22,7 @@ Kak1Hateno:
     coord: [-398.5,-829.5017332009902]
 - Royal Claymore + RGC:
     notes: Everything here is like Any%, up to the lizal sneakstrike and cooking. Do get razorshroom and naydra fang
+- .!!(DO NOT BREAK RGC)
 - _Material<Razorshroom>:
     hide-icon-on-map: true
     comment: Right box
@@ -39,7 +41,7 @@ Kak1Hateno:
     coord: [-319.75,-778.75] 
 - .dir(<S) Turn
 - Kill .enemy(Stalker):
-    notes: need 1 Shaft 2 Spring 2 Screws. Kill up to 3
+    notes: need 1 Shaft 2 Spring 2 Screws. Kill up to 3. Order of picking these up does NOT matter
     coord: [-222.25,-435.75]
 - .dir(S) to wall:
     coord: [-210,-262]
@@ -47,6 +49,7 @@ Kak1Hateno:
     coord: [949.19, 138.58, 502.84]
 - .dir(<N)
 - _Npc<Riverbed Reward>:
+    notes: Keep the weapon for IST
     coord: [823,146]
 - _Shrine::KayaWan
 - BLSS
@@ -90,9 +93,16 @@ Kak1Hateno:
 - .dir(W) Turn
 - _Npc<Sheep Lady>:
     coord: [3623,2101.5]
-- .dir(W) Turn to shop
+- .dir(W) Turn to shop:
+    coord: [3360.5,2135.5]
 - .!!(IST part 2)
-- .dir(S>) To bolson
+- .dir(SW)
+- _Npc<Horned Statue>:
+    coord: [3285.75,2196.75]
+- .dir(<S) To bolson
+- _Equipment::Weapon<1 Hammer>:
+    hide-icon-on-map: true
+    notes: For breaking ores
 - Omagadupe:
     icon: camera-plus
     split-type: UserDefined
@@ -100,6 +110,5 @@ Kak1Hateno:
     notes: Split when closing the game 
 - SQ to shrine
 - _Shrine::MyahmAgana
-- SQ to statue:
-    coord: [3285.75,2196.75]
-- _Npc<Horned Statue>
+
+    

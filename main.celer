@@ -10,47 +10,24 @@ _project:
 _config:
   split-format:
     Shrine: "[{{%03 Shrine}}] {{_}}"
-    Warp: "{{%04 Rupee}} {{_}}" # Checking rupee during warp for quests
+    Warp: "Warp {{_}}" # Checking rupee during warp for quests
 
 _route:
   - Plateau: __use__ Plateau
   - Hateno: __use__ Kak1Hateno
   - Medoh + Naboris: 
     - __use__ Medoh
+    - __use__ Naboris
+  - Ruta + Akkala:
+    - __use__ Kak2Ruta
+    - __use__ TarreyActivateGoron
+
   - rest order:
-    - _Warp::Shrine::MoggLatan
-    - _Shrine::KuhTakkar
-    - _Shrine::ShoDantu
-    - _Shrine::SasaKai
-    - _Shrine::DaqoChisay
-    - _Shrine::DakoTah
-    - Kara Kara:
-        icon: location
-        split-type: UserDefined
-    - _Warp::Shrine::KehNamut
-    - _Shrine::JolooNah
-    - _Shrine::JeeNoh
-    - _Shrine::DahKaso
-    - _Warp::Shrine::KuhTakkar
-    - _Warp::Shrine::DaqoChisay
-    - Urbosa Memory:
-        split-type: UserDefined
-        icon: naboris-memory
-        coord: [-3886.5,2966.704616756846]
-    - Enter Naboris:
-        split-type: UserDefined
-        icon: naboris-enter
-    - Thunderblight:
-        split-type: UserDefined
-        icon: naboris-done
-    - hundo talking and ice quest
     - _Warp::Shrine::TalohNaeg
     - pumpkin, impa
     - _Shrine::DowNaeh
     - _Memory::LanayruRoad
-    - Enter Fish Drama:
-        icon: npc-zora-female
-        split-type: UserDefined
+    
     - _Shrine::NeezYohma
     - Mipha Memory:
         split-type: UserDefined
@@ -202,14 +179,8 @@ _route:
     - _Shrine::MonyaToma
     - _Shrine::MaagNorah
     - _Shrine::RonaKachta
-  
 
-  #   - __use__ BigHorse
-  # - Naboris:
-  #   - __use__ Naboris
-  # - Ruta:
-  #   - __use__ Kak2Ruta
-  #   - __use__ TarreyActivateGoron
+  
   # - Hebra:
   #   - __use__ Hebra
   # - Gerudo:  __use__ Gerudo

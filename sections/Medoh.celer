@@ -34,9 +34,15 @@ Medoh:
 - _Equipment::Bow<Great Eagle Bow>:
     hide-icon-on-map: true
 - _Shrine::AkhVaquot
+- BLSS to Camp:
+    movements:
+    - to: [-3649,-1826.0083193647506]
+    - to: [-3479,-2085.1109248633434]
+- _Chest<5 Shock Arrow>:
+    notes: AA enemies so they don't bother you
 - BLSS to voltfin, drown:
     movements:
     - to: [-3009,-2138]
       away: true
-- BLSS
+- .dir(E>>) TS + .dir(E>) Turn
 - _Shrine::DunbaTaag
