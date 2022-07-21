@@ -72,6 +72,13 @@ TarreyActivateGoron:
 - .dir(S>) + .dir(E)
 - _Shrine::NamikaOzz:
     time-override: 30
+    notes: Eat ATK 3, stasis + 4AA headshots with GEB. Snap. Grab axe and Frostspear in chest
+- _Snap::Quest<Small Guardian>:
+    hide-icon-on-map: true
+    comment: Inside Shrine
+- _Equipment::Weapon<Axe and Frostspear>:
+    hide-icon-on-map: true
+    comment: For Nebb
 - .gale() + BLSS:
     gale: 1
     coord: [2052,-726.1045862997235]
