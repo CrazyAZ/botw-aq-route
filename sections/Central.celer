@@ -35,8 +35,7 @@ Central1:
 - _Memory::LakeKolomo
 - .dir(<N) Slight TS
 - _Shrine::KaamYatak
-- .gale() + .dir(N) + BLSS:
-    gale: 1
+- .dir(N) + BLSS
 - _Shrine::ZaltaWa
 - wb?
 - _Memory::IrchPlain

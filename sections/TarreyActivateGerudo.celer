@@ -3,12 +3,13 @@ TarreyActivateGerudo:
     line-color: red
 - .dir(NW) to stalkers:
     notes: Land in the middle of them so you attract both, use falcon bow and aim a tiny bit above eye
-- Kill .enemy(2 Stalkers)
+- Kill .enemy(2 Stalkers):
+    time-override: 40
 - _Snap::Quest<Guardian Stalker>:
     coord: [3654,-1552.409629673918]
 - .dir(E) to TT:
     coord: [3984.5,-1597.5796282054716]
-- .dir(S) midair?
+- .dir(S) midairs
 - _Shrine::KenaiShakah
 - Jump out + .dir(SE) midair:
     notes: Strong wind
@@ -30,6 +31,7 @@ TarreyActivateGerudo:
 - Smuggle blue flame:
     coord: [4153.5,-3173]
     notes: If you don't have any wood weapon, there's a moblin nearby with one
+    time-override: 60
 - .dir(E) super to lab:
     coord: [4506,-3168]
 - _Npc<Robbie>:

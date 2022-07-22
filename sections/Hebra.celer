@@ -19,13 +19,14 @@ Hebra:
 - +.dir(N) + .dir(N) midair:
     coord: [-3575,-3031.5463049519667]
 - _Shrine::MozoShenno
-- .dir(E>) + .dir(E)
+- .gale() + .dir(E>) + .dir(E) Fast Turn:
+    gale: 1
 - _Boss::Talus::Frost:
     coord: [-3078,-2933.6109706578454]
     fury: 3
     comment: .fury()
     notes: Get flints
-- .dir(W) + .dir(E) updraft + .dir(N)
+- .dir(W) + .dir(E) + .dir(N) + .dir(N)
 - _Shrine::ShadaNaw
 - BLSS:
    time-override: 45
@@ -38,7 +39,7 @@ Hebra:
     line-color: red
 - .dir(N>) + .dir(N) Turn right
 - _Shrine::RokUwog
-- .dir(N) + .dir(<E) Turn Midairs:
+- .dir(N) + .dir(<E) Turn:
     coord: [-2386,-3399.7266494439036]
 - _Shrine::ShaGehma
 - .dir(E>) Turn + .dir(E) midairs:

@@ -26,30 +26,43 @@ Eldin:
 - _Npc<Greyson>:
     hide-icon-on-map: true
     notes: Make night if past 9PM
-- wb? to shrine brother:
+- .dir(<N) + .dir(N>):
     coord: [1644.75,-2463.0383285018875]
+- _Npc::Goron<Shrine Brother>:
+    comment: "21"
 - Run to shop:
     coord: [1680,-2460.5]
 - .!!(TRANSMUTATE):
     icon: tots
     hide-icon-on-map: true
     comment: 5 Flints + RGC
-    notes: Drop ice rod + fire rod to help. Equip trident, Drop flints, then overload. Hold smuggle 5 rushrooms, equip RGC, sell all, pick up flints, unhold, buy goron spice, slam attack
+    notes: Equip trident, Drop flints, then overload. Hold smuggle 5 rushrooms, equip RGC, sell all, pick up flints, unhold, buy goron spice, slam attack
 - _Npc::Goron<Bludo>:
     coord: [1705.75,-2447.75]
 - .dir(N>)
-- _Shrine::ShaeMosah
+- Activate Shrine:
+    notes: Doing later so TOD is more lenient
+    coord: [1754,-2545.7133086986178]
 - .dir(<N) Turn
-- rescue yunobo
+- Rescue yunobo:
+    coord: [1635,-2936.561622231986]
+- .dir(W.) Turn
 - _Boss::Talus::Igneo:
     coord: [1337,-3051.971476463712]
     fury: 3
     comment: .fury()
+- .dir(<W)
 - _Shrine::ShoraHah
-- wb down snap skeleton
-- wb to Gorae Torr
+- Minecart + .dir(N>):
+    coord: [1727,-3315.1350048347513]
+- _Snap::Quest<Eldin Skeleton>:
+    movements:
+    - to: [1580,-3666.1171593680883]
+      away: true
+- .dir(E) Fast Turn + midair
 - .gale() quest:
     gale: 1
+    time-override: 60
 - _Shrine::GoraeTorr
 - .dir(E) Turn:
     coord: [3322,-3429]
@@ -58,6 +71,12 @@ Eldin:
 - _Chest::Special<Salvager Vest>:
     coord: [3636.00, 302.00, -3520.00]
 - _Shrine::ZunaKai
+- _Snap::Quest<Backup Blupee>:
+    movements:
+    - to: [3360.27, 162.25, -3078.82]
+    - to: [3248,-3373.0527605101324]
+    - to: [3330,-3426.1528503014133]
+      warp: true
 - Drop down
 - _Equipment::Weapon<Korok Leaf>:
     coord: [3223.95, 83.06, -3393.09]
@@ -66,3 +85,4 @@ Eldin:
 - _Snap::Quest<Kilton>:
     coord: [3247,-3440.5]
     notes: Snap multiple to be safe
+    time-override: 60

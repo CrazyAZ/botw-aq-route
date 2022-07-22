@@ -1,4 +1,5 @@
 KorokForest:
+- .dir(W) Fast Turn
 - BLSS to Oaki
 - _Npc<Start Oaki>:
     coord: [267,-2278.8126162129947]

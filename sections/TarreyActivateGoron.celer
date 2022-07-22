@@ -14,20 +14,17 @@ TarreyActivateGoron:
     coord: [3302.75,-518.9653855002334]
 - _Npc::ZoraMale<Fronk>:
     coord: [3340.375,-535.4719221439664]
-    notes: At SPA area 8PM to 7AM, otherwise fixing pillar
-- _Npc::ZoraFemale<Lynel Lady>:
-    comment: Twice
-    coord: [3349.375,-509.8367705381688]
-    time-override: 40 # for 4 quests
+    notes: At SPA area 8PM to 7AM, otherwise fixing pillars
+    time-override: 40 # for 3 quests
 - .dir(W) Activate Shrine
 - .!!(DO NOT THROW TRIDENT)
 - _Shrine::DagahKeek
-- .dir(S>)
+- .dir(<<W)
 - _Boss::Hinox::Blue:
     coord: [2923,-290.92037179452836]
     fury: 3
     comment: .fury()
-- .dir(S>) Turn (can super)
+- .dir(S.) Turn (can super)
 - .loc(Monument):
     coord: [2838.5,188.50332156742115]
 - .dir(S>) to deer:
@@ -60,16 +57,16 @@ TarreyActivateGoron:
 - Elevator BLSS
 - _Shrine::ShehRata
 - .dir(<N) Turn (super)
-- Kill .enemy(Octorok):
-    notes: Get Octoballoon. Not guaranteed, 84%
-    coord: [1257,-1111.1588602507172]
-- SQ to shrine
 - _Shrine::MirroShaz:
     time-override: 40
+- SQ .dir(S)
+- Kill .enemy(Octorok):
+    notes: Get Octoballoon. Not guaranteed, 84%. We do the shrine so that it's less time loss to rng
+    coord: [1257,-1111.1588602507172]
+- .dir(W)
 - _Tod::Noon:
     comment: Make 12pm-3pm
     notes: For Balloon Girl (7AM-8PM), Darner Girl (8AM-8PM), Greyson (>9PM), Kilton+Xenoblade (<4AM). If it's between 12PM to 3PM, you can skip this one and make it night at Greyson
-- .dir(<W) Turn
 - _Npc<Balloon Girl>:
     coord: [1066,-1136.1687642563725]
 - .dir(S>) + .dir(E)

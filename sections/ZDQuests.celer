@@ -6,3 +6,6 @@ ZDQuests:
 - hinox
 - monuments
 - kapson
+- _Npc::ZoraFemale<Lynel Lady>:
+    comment: Twice
+    coord: [3349.375,-509.8367705381688]
