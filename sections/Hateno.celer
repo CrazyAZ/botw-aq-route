@@ -1,11 +1,8 @@
 Hateno:
 - _Warp::Shrine::MyahmAgana
-- bolson build house (2nd option):
-    var-change:
-      Rupee: -1500
-    notes: .v(Rupee) rupees
 - invite to wedding
 - nebb
+- farmer
 - shrine girl
 - cricket
 - sheep

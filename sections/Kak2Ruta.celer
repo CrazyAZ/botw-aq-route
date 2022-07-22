@@ -3,8 +3,10 @@ Kak2Ruta:
     line-color: yellow
 - _Npc<Pumpkin Man>:
     coord: [1841,984.478013107444]
+    time-override: 20
 - SQ to Impa:
     coord: [1774.5,984.9782111875575]
+    time-override: 20
 - .dir(<E) up:
     coord: [1879.5,917.4514703722871]
 - _Snap::Quest<Blupee>:
@@ -12,7 +14,8 @@ Kak2Ruta:
 - .dir(N) to tree stump:
     coord: [1871,814.9108639490987]
 - _Material<Nightshade>
-- BLSS to shrine
+- BLSS to shrine:
+    time-override: 30
 - _Shrine::DowNaeh
 - .dir(N>) + .dir(E) Fast Turn:
     coord: [2765.5,1176.647173524043]
@@ -21,7 +24,8 @@ Kak2Ruta:
     movements:
     - to: [3234.5,1181.649154325174]
       away: true
-- wb + blss:
+- .dir(W) + blss:
+    time-override: 40
     coord: [3477.5,1075.1241962309214]
 - .loc(Monument):
     coord: [3397,10.99405759660658]
@@ -58,3 +62,4 @@ Kak2Ruta:
     split-type: UserDefined
     icon: ruta-done
     coord: [3675,-188.23615728933328]
+    time-override: 240

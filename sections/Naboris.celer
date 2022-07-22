@@ -9,13 +9,16 @@ Naboris:
     - to: [-3272,912.6005789029596]
 - _Tod::Noon:
     notes: For Sasa Kai. Put the wood right next to a luminous stone ore and shoot the ore with normal arrow. 
-      Light the campfire again after make noon and use wood to melt ice
+      Make noon after melting ice
 - _Material<10 Luminous Stone>:
     comment: While melting ice
+- _Equipment::Weapon<Ice Rod>:
+    comment: Bomb Wizarobe
 - _Shrine::KuhTakkar
-- .dir(<E) TS
+- .dir(<E) TS or BLSS
 - _Material<10 Berry>:
     coord: [-3655.5,1531.2579003072733]
+- .dir(<E) Turn
 - _Shrine::ShoDantu:
     notes: Farm luminous to 10
 - .dir(S) + .dir(E):
@@ -35,6 +38,7 @@ Naboris:
     hide-icon-on-map: true
 - _Npc<Sesami>:
     coord: [-2814,2239.51842145052]
+
 - _Shop<1 Winterwing 1 Darner>:
     comment: Buy from beedle
     hide-icon-on-map: true
@@ -89,7 +93,7 @@ Naboris:
     - to: [-1992,2164.112509504248]
     - to: [-2031,1880.5001980801135]
     notes: AA a boko on horse and take his horse
-- .dir(N>)
+- .dir(N.)
 - _Shrine::JolooNah
 - .dir(<W) + .dir(<<W) Turn:
     notes: can also blss but it's a bit monkaSTEER
@@ -97,19 +101,24 @@ Naboris:
     coord: [-2814,2239.51842145052]
 
 - _Warp::Shrine::KuhTakkar
-- .dir(.E) Delay Turn:
+- .dir(E) kill some wolves:
+    coord: [-3204,1168.4056680716558]
+- _Material<Raw Gourmet Meat>
+- .dir(<E) Turn:
     coord: [-3516,1356.1299405542022]
+- Clip in
 - _Equipment::Bow<Duplex Bow>
 - Kill .enemy(Kohga):
     notes: "Phase 1: spam AA after screen goes out. 
     Phase 2: wait for the ball to go above, shoot 2 AA, turn around and backflip over the hole, spam AA.
     Phase 3: Mag the ball to kohga from the side and press B as the ball goes over the edge of the hole. Or just do normal kill"
+
 - _Warp::Shrine::DaqoChisay
-- .dir(S>) to Riju DEFUSE
+- .dir(S>) to Riju
 - Urbosa Memory:
     split-type: UserDefined
     icon: naboris-memory
-    coord: [-3886.5,2966.704616756846]
+    coord: [-3869,2947.3173472384588]
 - .dir(E>>) Super:
     coord: [-3435,3128.181045223386]
 - Ride sand seal to Misae Suma
@@ -125,8 +134,27 @@ Naboris:
 - Thunderblight:
     split-type: UserDefined
     icon: naboris-done
-    var-change:
-      ShockArrow: -4
-      Arrow: -9
-- do hundo talking # TODO
-- do ice quest # TODO
+    notes: GEB 2 body 3 head
+- _Npc<Boots Guy>:
+    movements:
+    - to: [-3767.25,2865.0417949038665]
+      warp: true
+    comment: Equip Snowboots
+- _Npc::Gerudo<Riju + Thunderhelm>:
+    coord: [-3888.5,2970.333490767677]
+- _Npc::Gerudo<Guard Captain>:
+    coord: [-3911.75,2929.317248198402]
+- _Npc::Gerudo<Entrance Guard>:
+    coord: [-3916.75,2873.2950632257334]
+- _Npc::Gerudo<Historian>:
+    coord: [-3880.25,2879.5475392271474]
+    comment: "112"
+- _Npc::Gerudo<Bar Lady>:
+    coord: [-3852.75,2860.289913142792]
+- _Npc::Gerudo<Trash Girl>:
+    coord: [-3834.75,2853.287140021209]
+- .dir(N>) Turn
+- _Npc::Gerudo<Ice Quest>:
+    movements:
+    - to: [-3755,2279.955233894437]
+    - to: [-3762.75,2699.025255214422]

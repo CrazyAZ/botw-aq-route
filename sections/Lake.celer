@@ -1,0 +1,36 @@
+Lake:
+- .dir(E>) midairs?
+- _Shrine::KorshOhu:
+    notes: Make noon during orbs
+- _Shrine::MisaeSuma
+- .dir(E) Turn + .dir(E) + .dir(E) + .dir(<<E) Turn
+- _Shrine::DilaMaag:
+    notes: Barb armor if need
+- +WB straight up land left
+- +.dir(E) + .dir(E) up
+- +.dir(S) + .dir(S) +.dir(N>) + midair
+- _Shrine::SumaSahma
+- .dir(E>) Turn
+- _Shrine::IshtoSoh
+- BLSS to giant horse
+- Ride to camp:
+    movements:
+    - to: [-1208,2652]
+    - to: [-636,3722]
+    - to: [-200,3500]
+- .dir(SE) question mark?
+- _Shrine::ShoqaTatone
+- .dir(E) + .dir(E) + .dir(N>)
+- _Shrine::KaoMakagh
+- .dir(N) .fury() bokos:
+    fury: 1
+- Take a horse to stable
+- _Npc<Quest Guy>:
+    coord: [511,3442]
+- .dir(<N) + .dir(N>) question mark?
+- _Shrine::PumaagNitae
+- .dir(E.)
+- _Npc<Kass>:
+    coord: [830,3054]
+- card super?
+- _Shrine::ShaeKatha

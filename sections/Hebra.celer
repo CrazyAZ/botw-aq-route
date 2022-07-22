@@ -1,9 +1,13 @@
 Hebra:
-- _Warp::Shrine::ShaWarvo:
-    line-color: yellow
-- .dir(.N)
-- _Shrine::MakaRah:
-    time-override: 60
+- _Warp::Shrine::AkhVaquot:
+    line-color: "#00ff00"
+- .dir(W) turn
+- _Npc::Rito<Little Bird>:
+    coord: [-3971.25,-1745.5]
+- .dir(N>) Turn
+- _Shrine::ShaWarvo
+- .dir(<N)
+- _Shrine::MakaRah
 - +Run out:
     coord: [-3984,-2549.3553557229257]
 - +.dir(E) HIGH:
@@ -20,25 +24,26 @@ Hebra:
     coord: [-3078,-2933.6109706578454]
     fury: 3
     comment: .fury()
-    notes: get flints
-    var-change:
-      RupeeItem: 280 # guaranteed sapphire
+    notes: Get flints
 - .dir(W) + .dir(E) updraft + .dir(N)
 - _Shrine::ShadaNaw
 - BLSS:
    time-override: 45
 - _Shrine::HiaMiu
-- .dir(E) + clip
+- .dir(E) + clip:
+   time-override: 60
 - _Shrine::ToQuomo
-- snap
+- _Snap::Quest<Hebra Skeleton>
 - _Warp::Shrine::ShadaNaw:
-    line-color: "#00ff00"
-- .dir(E) Turn
+    line-color: red
+- .dir(N>) + .dir(N) Turn right
 - _Shrine::RokUwog
-- .dir(N) + .dir(<E) Turn
+- .dir(N) + .dir(<E) Turn Midairs:
+    coord: [-2386,-3399.7266494439036]
 - _Shrine::ShaGehma
-- .dir(E>) Turn
-- _Shrine::QazaTokki
+- .dir(E>) Turn + .dir(E) midairs:
+    notes: or blss
+- _Shrine::QazaTokki:
+    comment: Barb Legging
 - .dir(S) up + BLSS
-- _Shrine::KetohWawai:
-    comment: core if forgor
+- _Shrine::KetohWawai

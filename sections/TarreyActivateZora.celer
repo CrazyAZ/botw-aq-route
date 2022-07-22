@@ -1,0 +1,11 @@
+TarreyActivateZora:
+- _Warp::Shrine::DahHesho:
+    line-color: magenta
+- make morning?
+- .dir(N) Turn:
+    coord: [3984.5,-1597.5796282054716]
+- _Npc<Hudson>:
+    comment: Twice
+- BLSS
+- _Memory::SpringofPower
+- _Shrine::TutsuwaNima

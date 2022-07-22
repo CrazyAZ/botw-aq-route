@@ -10,9 +10,7 @@ Medoh:
     hide-icon-on-map: true
 - _Shop<Material Shop>:
     comment: Wheat Sugar Butter Shroom
-- .dir(<N) Turn
-- _Shrine::ShaWarvo
-- .dir(N.)
+- .dir(<N) TS
 - _Equipment::Bow<10 Arrows + Swallow>:
     coord: [-3793.25,-2317.5]
 - _Tod::Morning:
@@ -22,10 +20,13 @@ Medoh:
 - Enter Medoh:
     split-type: UserDefined
     icon: medoh-enter
+- _Chest<Ancient Core>:
+    hide-icon-on-map: true
+    comment: Inside Medoh
 - Windblight:
     split-type: UserDefined
     icon: medoh-done
-    notes: Eat ATK food. falcon 3BA + 6AA all headshots. Use one endura food 
+    notes: FDB 2 body 4 head
 - _Material<Cold Darner>:
     movements:
     - to: [-3607.75,-1853.25]
@@ -44,5 +45,5 @@ Medoh:
     movements:
     - to: [-3009,-2138]
       away: true
-- .dir(E>>) TS + .dir(E>) Turn
+- .dir(E>>) TS + .dir(E)
 - _Shrine::DunbaTaag

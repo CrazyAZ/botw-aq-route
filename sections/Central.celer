@@ -1,0 +1,100 @@
+Central1:
+- blss maybe?
+- _Material<Monster Extract>:
+    coord: [-1864.50, 216.00, -275.00]
+    comment: Save traveller
+- .dir(S)
+- _Shrine::SheemDagoze
+- .dir(E)
+- _Npc<Kass>:
+    coord: [-1681.68, 214.50, 51.38]
+- BLSS? wb?
+- Kill Mountain Goat:
+    coord: [-1726.68, 217.04, 681.07]
+- _Material<Raw Meat>
+- _Memory::SanidinPark
+- SQ to white horse
+- Ride to stable:
+    movements:
+    - to: [-1914,926.7463658662109]
+    - to: [-1954,1006.7780586843091]
+    - to: [-1906,1074.804997579693]
+    - to: [-1626,1032.7883588501918]
+    - to: [-1530,1022.7843972479295]
+    - to: [-1450,1270.8826449840335]
+- _Npc<Horse Guy>:
+    coord: [-1439.25, 137.72, 1278.45]
+- _Npc<Meat Guy>:
+    coord: [-1439,1280.0853725287516]
+- _Npc<Fan Girl>:
+    coord: [-1400.00, 137.72, 1280.00]
+- .dir(.W)
+- _Shrine::RotaOoh
+- BLSS:
+    coord: [-1164,1189.2048148369595]
+- _Memory::LakeKolomo
+- .dir(<N) Slight TS
+- _Shrine::KaamYatak
+- .gale() + .dir(N) + BLSS:
+    gale: 1
+- _Shrine::ZaltaWa
+- wb?
+- _Memory::IrchPlain
+- .dir(<S) DT
+- _Shrine::NoyaNeha
+- Bomb thorns + .dir(SE) midair
+- _Shrine::KatahChuki
+- .dir(E>) Turn
+- _Memory::SacredGrounds
+
+Central2:
+- .dir(S>>) ordinal turn escape
+- midair to zelda study
+- _Memory::HyruleCastle
+- wb?
+- _Chest<Naydra Scale>:
+    coord: [-176.5,-1167.6024074184797]
+- _Chest<Dinraal Scale>:
+    coord: [-196.46, 153.20, -1218.59]
+- WB to docks:
+    coord: [-310,-1136.8678805645532]
+- _Shrine::SaasKosah
+- Run to library, WB out:
+    movements:
+    - to: [-142.5,-1046.3013256465474]
+    - to: [-64,-1042.7999390857558]
+- BLSS
+- _Memory::HyruleField
+- .dir(<S) Turn
+- _Shrine::HilaRao
+- .dir(<W) Turn
+- _Shrine::WahgoKatta
+- SQ to stable
+- _Npc<Royal Guard Girl>:
+    coord: [347,1082.8428766757988]
+- _Cook<Fruitcake>:
+    hide-icon-on-map: true
+    comment: Wheat Sugar Apple Melon
+- _Npc<Chef Guy>:
+    coord: [324,1107.8527806814545]
+- _Cook<Monster Cake>:
+    hide-icon-on-map: true
+    comment: Wheat Sugar Butter Extract
+- .dir(S>) Turn
+- Kill .enemy(Moblin):
+    notes: Throw RGC at him
+- _Equipment::Weapon<Moblin Club>:
+    coord: [132.65, 116.42, 1397.90]
+- .dir(S)
+- _Shrine::BoshKala
+- .dir(<S)
+- _Memory::WestNecluda
+- (make night?)
+- wb to middle of bridge look SE
+- _Shrine::YaNaga
+- .dir(E)
+- _Npc::ZoraFemale<Fronk's Wife>:
+    coord: [-205,2613.7491847822967]
+- .dir(E>) DT
+- _Chest::Special<Salvager Headwear>:
+    coord: [126.03, 92.65, 2710.94]

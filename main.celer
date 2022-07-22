@@ -15,175 +15,38 @@ _config:
 _route:
   - Plateau: __use__ Plateau
   - Hateno: __use__ Kak1Hateno
-  - Medoh + Naboris: 
+  - 2 Beasts + Hebra: 
     - __use__ Medoh
     - __use__ Naboris
+    - __use__ Hebra
   - Ruta + Eldin:
     - __use__ Kak2Ruta
     - __use__ TarreyActivateGoron
     - __use__ Eldin
-
-  - rest order:
-
-    # - _Warp::Shrine::DagahKeek:
-    #     line-color: "#00ff00"
-    # - _Shrine::QuaRaym
-    # - _Shrine::ShaeMosah
-    # - _Shrine::ShoraHah
-    # - _Shrine::GoraeTorr
-    # - _Shrine::ZunaKai
-
-    # - _Memory::SpringofPower
-    # - _Shrine::TutsuwaNima
-    - _Warp::Shrine::DahHesho
-    - tarrey
-    - _Shrine::KatosaAug
-    - _Shrine::TuKaloh
-    - _Warp::Shrine::ShaWarvo
-    - _Shrine::MakaRah
-    - _Shrine::MozoShenno
-    - _Shrine::ShadaNaw
-    - _Shrine::HiaMiu
-    - _Shrine::ToQuomo
-    - _Warp::Shrine::ShadaNaw
-    - _Shrine::RokUwog
-    - _Shrine::ShaGehma
-    - _Shrine::QazaTokki
-    - _Shrine::KetohWawai
-    - _Warp::Shrine::KuhTakkar
-    - _Shrine::KeehaYoog
-    - _Shrine::KemaKosassa
-    - _Shrine::KemaZoos
-    - _Shrine::ThoKayu
-    - _Shrine::HawaKoth
-    - _Shrine::RaqaZunzo
-    - _Memory::KaraKaraBazaar
-    - _Shrine::KayNoh
-    - _Shrine::KorshOhu
-    - _Shrine::MisaeSuma
-    - _Shrine::DilaMaag
-    - _Shrine::SumaSahma
-    - _Shrine::IshtoSoh
-    - _Shrine::ShoqaTatone
-    - _Shrine::KaoMakagh
-    - _Warp::Shrine::ShaeMosah
-    - Daruk Memory:
-        split-type: UserDefined
-        icon: rudania-memory
-        coord: [1708.5,-2451.0614048350653]
-    - _Shrine::DaqaKoh
-    - drill shaft
-    - Enter Rudania:
-        split-type: UserDefined
-        icon: rudania-enter
-    - Fireblight:
-        split-type: UserDefined
-        icon: rudania-done
-    - _Shrine::KayraMah
-    - _Memory::EldinCanyon
-    - _Shrine::KuhnSidajj
-    - _Shrine::DaagChokah
-    - _Shrine::KeoRuug
-    - _Shrine::MaagHalan
-    - kf quest
-    - _Shrine::SaasKosah
-    - _Memory::HyruleCastle
-    - _Memory::IrchPlain
-    - _Shrine::ZaltaWa
-    - _Shrine::NoyaNeha
-    - _Warp::Shrine::DahHesho
-    - tarrey
-    - _Shrine::KenaiShakah
-    - _Shrine::KahMael
-    - _Shrine::RitaagZumo
-    - _Warp::VahMedoh
-    - _Shrine::BareedaNaag
-    - _Shrine::VooLota
-    - _Shrine::KahOkeo
-    - _Memory::AncientColumns
-    - _Shrine::TenaKosah
-    - _Shrine::MijahRokee
-    - _Shrine::ShaeLoya
-    - _Shrine::TohYahsa
-    - _Shrine::SheemDagoze
-    - _Memory::SanidinPark
-    - _Shrine::RotaOoh
-    - _Memory::LakeKolomo
-    - _Shrine::KaamYatak
-    - _Shrine::KatahChuki
-    - _Memory::SacredGrounds
-    - _Memory::HyruleField
-    - _Shrine::HilaRao
-    - _Shrine::WahgoKatta
-    - _Shrine::BoshKala
-    - _Memory::WestNecluda
-    - _Shrine::YaNaga
-    - _Warp::Shrine::NeezYohma
-    - zd quests
-    - tarrey
-    - _Warp::Shrine::TalohNaeg
-    - _Shrine::LaknaRokee
-    - _Shrine::KamUrog
-    - _Shrine::TotoSah
-    - _Memory::AshSwamp
-    - _Shrine::HaDahamar
-    - _Shrine::ReeDahee
-    - _Shrine::SheeVaneer
-    - _Shrine::SheeVenath
-    - _Shrine::QukahNata
-    - _Shrine::ShodaSah
-    - _Shrine::ShaeKatha
-    - _Shrine::PumaagNitae
-    - _Shrine::ShaiUtoh
-    - _Shrine::YahRin
-    - _Shrine::TawaJinn
-    - _Shrine::ChaasQeta
-    - _Shrine::KorguChideh
-    - _Shrine::KahYah
-    - _Shrine::MuwoJeem
-    - hateno 2
-    - _Shrine::TahnoOah
-    - _Shrine::JitanSami
-    - _Shrine::ShaiYota
-    - _Shrine::RuccoMaag
-    - _Warp::Shrine::DahHesho
-    - tarrey wedding
-    - _Warp::Shrine::ShadaNaw
-    - _Shrine::GomaAsaagh
-    - _Shrine::LannoKooh
-    - _Shrine::GeeHarah
-    - _Shrine::RinOyaa
-    - _Shrine::MonyaToma
-    - _Shrine::MaagNorah
-    - _Shrine::RonaKachta
-
-  
-  # - Hebra:
-  #   - __use__ Hebra
-  # - Gerudo:  __use__ Gerudo
-
-  # - Bloodmoon:
-  #   - __use__ TarreyActivateGerudo
-  #   - __use__ GerudoTown
-  #   - __use__ Bloodmoon
-  # - Rudania:
-  #   - __use__ RudaniaKF
-  # - Rito:
-  #   - __use__ TarreyActivateRito
-  #   - __use__ Rito
-  # - Central:  
-  #   - __use__ Central
-  #   - __use__ TarreyActivateZora
-  #   - __use__ ZDQuests
-  # - Hateno:
-  #   - __use__ TarreyActivateHateno
-  #   - __use__ Kak3FinalMemory
-  #   - __use__ Hateno
-  # - Cleanup:
-  #   - __use__ SpringOfCourage
-  #   - __use__ TarreyFinal
-  #   - __use__ ForgottenTemple
-    - _Warp::Shrine::KuhnSidajj
+    - __use__ TarreyActivateGerudo
+  - Gerulake + Rudania:
+    - __use__ Gerudo
+    - __use__ Lake
+    - __use__ Rudania
+  - Forest + Rito + BM:
+    - __use__ KorokForest
+    - __use__ TarreyActivateRito
+    - __use__ Rito
+    - __use__ Central1
+  - Central:
+    - __use__ KorokForest2
+    - __use__ Central2
+    - __use__ TarreyActivateZora
+    - __use__ ZDQuests
+  - Forgotten Temple:
+    - __use__ TarreyActivateHateno
+    - __use__ Kak3Faron
+    - __use__ Hateno
+    - __use__ ForgottenTemple
+    - __use__ TarreyFinal
+    - _Warp::Shrine::KeoRuug
+    - trial korok
+    - wb + blss
     - Calamity:
         icon: calamity
         split-type: UserDefined

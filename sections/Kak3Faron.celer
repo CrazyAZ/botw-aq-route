@@ -1,0 +1,79 @@
+Kak3Faron:
+- _Warp::Shrine::TalohNaeg:
+    line-color: cyan
+- 11a to 3p not raining
+- fairy fountain
+- do hundo style quests except arrow quest
+- impa, make night
+- _Shrine::TalohNaeg
+- arrow quest
+- trav sword
+- _Shrine::LaknaRokee
+- _Shrine::KamUrog
+- make noon? morning?:
+    notes: Need to be 7AM for axe quest, 12PM for dinner quest+ hat quest, night for forgotten temple
+- talk to doc
+
+- .dir(S) + BLSS
+- treasure:
+    coord: [1951,2609.562943681468]
+- _Shrine::TotoSah
+- .dir(N>) Turn
+- _Memory::AshSwamp
+- .dir(SW) to horse, ride near stable
+- horse quest
+- guy in stable
+- run to shrine
+- _Shrine::HaDahamar
+- .dir(<<W) + .dir(NW)
+- _Shrine::ReeDahee
+- .gale() SCW:
+    gale: 1
+- _Shrine::SheeVaneer
+- _Shrine::SheeVenath
+- BLSS
+- Drop down
+- _Shrine::ShodaSah
+- BLSS
+- axe quest
+- _Shrine::ShaiUtoh
+
+- .dir(E) super + .dir(N>) + .dir(N>) midair
+- Clip in
+- _Shrine::QukahNata
+- _Npc<Kass>
+- .dir(<<E) TS to blue:
+    coord: [2689,2965]
+- Walk Orb:
+    coord: [2632.75,2857]
+- .dir(W>) to black:
+    coord: [2419,2779.5]
+- Walk or BLSS:
+    coord: [2615.75,2824.5]
+- .dir(NE) to red:
+    coord: [2767.5,2714]
+- Walk Orb:
+    coord: [2647.5,2820.75]
+- .!!(READ TABLET):
+    coord: [2655,2842.5]
+- .!!(READ TABLET)
+- .!!(READ TABLET)
+- _Shrine::TawaJinn
+- BLSS
+- love quest:
+    coord: [2591,3528.322870584376]
+- .dir(SW)
+- camp .fury():
+    fury: 2
+    coord: [2091,3914.4757884316987]
+- BLSS treasure:
+    coord: [3024,3924.903245315798]
+- shell
+- dinner
+- man
+- old man
+- _Shrine::YahRin
+- _Shrine::KahYah
+- _Shrine::MuwoJeem
+- _Shrine::ChaasQeta
+- _Shrine::KorguChideh

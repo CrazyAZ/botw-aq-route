@@ -14,10 +14,13 @@ TarreyActivateGoron:
     coord: [3302.75,-518.9653855002334]
 - _Npc::ZoraMale<Fronk>:
     coord: [3340.375,-535.4719221439664]
+    notes: At SPA area 8PM to 7AM, otherwise fixing pillar
 - _Npc::ZoraFemale<Lynel Lady>:
+    comment: Twice
     coord: [3349.375,-509.8367705381688]
     time-override: 40 # for 4 quests
-- .dir(W)
+- .dir(W) Activate Shrine
+- .!!(DO NOT THROW TRIDENT)
 - _Shrine::DagahKeek
 - .dir(S>)
 - _Boss::Hinox::Blue:
@@ -106,12 +109,7 @@ TarreyActivateGoron:
     comment: From the korok
     notes: 1 for baked apple, 1 for fruit cake
 - _Shrine::DahHesho
-- .dir(NW) to stalkers:
-    notes: Land in the middle of them so you attract both, use falcon bow and aim a tiny bit above eye
-- Kill .enemy(2 Stalkers)
-- _Snap::Quest<Guardian Stalker>:
-    coord: [3654,-1552.409629673918]
-- .dir(E) to tarrey town:
+- .dir(N.) Turn to TT:
     coord: [3984.5,-1597.5796282054716]
 - _Npc<Hudson>:
     comment: Twice
