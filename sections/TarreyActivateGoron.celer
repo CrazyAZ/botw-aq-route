@@ -66,7 +66,7 @@ TarreyActivateGoron:
 - .dir(W)
 - _Tod::Noon:
     comment: Make 12pm-3pm
-    notes: For Balloon Girl (7AM-8PM), Darner Girl (8AM-8PM), Greyson (>9PM), Kilton+Xenoblade (<4AM). If it's between 12PM to 3PM, you can skip this one and make it night at Greyson
+    notes: For Balloon Girl (7AM-8PM), Darner Girl (8AM-8PM), Greyson (>9PM), Kilton+Xenoblade (<3AM). If it's between 12PM to 3PM, you can skip this one and make it night at Greyson
 - _Npc<Balloon Girl>:
     coord: [1066,-1136.1687642563725]
 - .dir(S>) + .dir(E)

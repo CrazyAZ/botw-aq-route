@@ -10,9 +10,13 @@ KorokForest:
     comment: Only pick up the apple
 - +_Snap::Quest<Sunshroom>:
     hide-icon-on-map: true
-- Drop down inside Deku Tree
 - +_Material<Baked Apple>:
     hide-icon-on-map: true
+    notes: Pick up sunshroom so you don't get updraft
+- Drop down inside Deku Tree
+- _Cook<Fruitcake>:
+    hide-icon-on-map: true
+    comment: Wheat Sugar Apple Melon
 - +Trade to 13 hearts
 - Equip Fire Rod:
     notes: When you pull MS, the equipped weapon will get 40 durability

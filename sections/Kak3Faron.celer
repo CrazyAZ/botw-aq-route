@@ -8,6 +8,9 @@ Kak3Faron:
 - _Shrine::TalohNaeg
 - arrow quest
 - trav sword
+- _Cook<Monster Cake>:
+    hide-icon-on-map: true
+    comment: Wheat Sugar Butter Extract
 - _Shrine::LaknaRokee
 - _Shrine::KamUrog
 - make noon? morning?:

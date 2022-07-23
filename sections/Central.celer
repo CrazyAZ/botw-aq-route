@@ -1,17 +1,41 @@
-Central1:
-- blss maybe?
+Central:
+- .dir(S>>) ordinal turn escape
+- midair to zelda study
+- _Memory::HyruleCastle
+- BLSS
+- _Chest<Dinraal Scale>:
+    coord: [-196.46, 153.20, -1218.59]
+- WB to docks:
+    coord: [-310,-1136.8678805645532]
+- _Shrine::SaasKosah
+- Run to library, WB out:
+    movements:
+    - to: [-142.5,-1046.3013256465474]
+    - to: [-64,-1042.7999390857558]
+- _Chest<Naydra Scale>:
+    coord: [-176.5,-1167.6024074184797]
+- BLSS
+- _Memory::IrchPlain
+- BLSS
+- _Shrine::NoyaNeha
+- Burn thorns + .dir(W) super
+- _Shrine::ZaltaWa
+- .dir(S>) + .dir(<E) Turn midair:
+    coord: [-1524.5,-472.5067347238455]
 - _Material<Monster Extract>:
     coord: [-1864.50, 216.00, -275.00]
     comment: Save traveller
-- .dir(S)
+- .dir(S) Fast Turn
 - _Shrine::SheemDagoze
-- .dir(E)
+- .dir(E) Fast Turn
 - _Npc<Kass>:
     coord: [-1681.68, 214.50, 51.38]
-- BLSS? wb?
+- BLSS
 - Kill Mountain Goat:
     coord: [-1726.68, 217.04, 681.07]
 - _Material<Raw Meat>
+- .gale() + .dir(E):
+    gale: 1
 - _Memory::SanidinPark
 - SQ to white horse
 - Ride to stable:
@@ -35,50 +59,23 @@ Central1:
 - _Memory::LakeKolomo
 - .dir(<N) Slight TS
 - _Shrine::KaamYatak
-- .dir(N) + BLSS
-- _Shrine::ZaltaWa
-- wb?
-- _Memory::IrchPlain
-- .dir(<S) DT
-- _Shrine::NoyaNeha
-- Bomb thorns + .dir(SE) midair
+- .dir(<E) + BLSS
 - _Shrine::KatahChuki
 - .dir(E>) Turn
 - _Memory::SacredGrounds
-
-Central2:
-- .dir(S>>) ordinal turn escape
-- midair to zelda study
-- _Memory::HyruleCastle
-- wb?
-- _Chest<Naydra Scale>:
-    coord: [-176.5,-1167.6024074184797]
-- _Chest<Dinraal Scale>:
-    coord: [-196.46, 153.20, -1218.59]
-- WB to docks:
-    coord: [-310,-1136.8678805645532]
-- _Shrine::SaasKosah
-- Run to library, WB out:
-    movements:
-    - to: [-142.5,-1046.3013256465474]
-    - to: [-64,-1042.7999390857558]
 - BLSS
 - _Memory::HyruleField
 - .dir(<S) Turn
 - _Shrine::HilaRao
 - .dir(<W) Turn
 - _Shrine::WahgoKatta
+- _Tod::Night:
+    notes: For Xenoblade and potentially skip BM at Ya Naga
 - SQ to stable
 - _Npc<Royal Guard Girl>:
     coord: [347,1082.8428766757988]
-- _Cook<Fruitcake>:
-    hide-icon-on-map: true
-    comment: Wheat Sugar Apple Melon
 - _Npc<Chef Guy>:
     coord: [324,1107.8527806814545]
-- _Cook<Monster Cake>:
-    hide-icon-on-map: true
-    comment: Wheat Sugar Butter Extract
 - .dir(S>) Turn
 - Kill .enemy(Moblin):
     notes: Throw RGC at him
@@ -88,8 +85,8 @@ Central2:
 - _Shrine::BoshKala
 - .dir(<S)
 - _Memory::WestNecluda
-- (make night?)
-- wb to middle of bridge look SE
+- .dir(S>) Turn
+- Middle of bridge look SE
 - _Shrine::YaNaga
 - .dir(E)
 - _Npc::ZoraFemale<Fronk's Wife>:

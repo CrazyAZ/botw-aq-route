@@ -1,12 +1,10 @@
 Rito:
-- _Warp::Shrine::AkhVaquot:
+- _Warp::VahMedoh:
     notes: Coordinates in rito might not be accurate
-- _Npc::Rito<Kheel's Mom>:
-    coord: [-3668.51, 321.49, -1769.96]
-- Run + .gale():
-    gale: 1
 - _Npc::Rito<Singing Little Bird>:
     coord: [-3634.46, 292.22, -1784.51]
+- _Npc::Rito<Kheel's Mom>:
+    coord: [-3668.51, 321.49, -1769.96]
 - .dir(.S) Turn
 - _Shrine::BareedaNaag
 - .dir(NE)
@@ -46,7 +44,7 @@ Rito:
     comment: Twice
 - Drop out .dir(<W) Turn
 - _Shrine::VooLota
-- BLSS?
+- Elevator BLSS
 - _Shrine::KahOkeo
 - .gale() + .dir(E) + .dir(E) + .dir(NE) + .dir(NE):
     movements:
@@ -60,6 +58,8 @@ Rito:
 - BLSS to BM Shrine
 - _Npc<Kass>:
     coord: [-2778.84, 348.24, 206.35]
+- _Tod::Night:
+    coord: [-2776,189.5768550838884]
 - _Shrine::MijahRokee
 - .dir(<N) Turn
 - _Shrine::ShaeLoya
@@ -72,3 +72,6 @@ Rito:
 - .dir(NW) to orange
 - .dir(S) to green
 - _Shrine::TohYahsa
+- .dir(N) + .dir(<N) Turn + .dir(W>) Turn:
+    coord: [-2344,-1316.2384884561884]
+- _Shrine::DunbaTaag

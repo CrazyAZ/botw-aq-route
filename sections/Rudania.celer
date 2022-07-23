@@ -26,7 +26,7 @@ Rudania:
     split-type: UserDefined
     icon: rudania-enter
     comment: .fury() last 2 drones
-    notes: AA everything
+    notes: AA everything. Pick up 3 screws
     fury: 2
 - .gale() inside:
     gale: 1

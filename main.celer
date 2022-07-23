@@ -15,41 +15,42 @@ _config:
 _route:
   - Plateau: __use__ Plateau
   - Hateno: __use__ Kak1Hateno
-  - 2 Beasts + Hebra: 
+  - Medoh + Naboris: 
     - __use__ Medoh
     - __use__ Naboris
+  - Hebra + Ruta:
     - __use__ Hebra
-  - Ruta + Eldin:
     - __use__ Kak2Ruta
     - __use__ TarreyActivateGoron
+  - Gerudo + Lake:
     - __use__ Eldin
     - __use__ TarreyActivateGerudo
-  - Gerulake + Rudania:
     - __use__ Gerudo
     - __use__ Lake
+  - Rudania + Central:
     - __use__ Rudania
-  - Forest + Rito + BM:
     - __use__ KorokForest
+    - __use__ KorokForest2
+    - __use__ Central
+  - Kakariko + Faron:
     - __use__ TarreyActivateRito
     - __use__ Rito
-    - __use__ Central1
-  - Central:
-    - __use__ KorokForest2
-    - __use__ Central2
     - __use__ TarreyActivateZora
     - __use__ ZDQuests
-  - Forgotten Temple:
-    - __use__ TarreyActivateHateno
     - __use__ Kak3Faron
+  - Hateno + Tarrey Town:
+    - __use__ TarreyActivateHateno
     - __use__ Hateno
     - __use__ ForgottenTemple
     - __use__ TarreyFinal
+  - Ganon:
     - _Warp::Shrine::KeoRuug
     - trial korok
     - wb + blss
     - Calamity:
         icon: calamity
         split-type: UserDefined
+  
     - Dark Beast:
         icon: ganon
         split-type: UserDefined
