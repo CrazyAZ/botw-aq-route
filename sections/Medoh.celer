@@ -2,6 +2,9 @@ Medoh:
 - _Warp::Shrine::MoggLatan:
     line-color: yellow
 - BLSS to rito
+- Activate shrine:
+    coord: [-3656,-1757.4047005683415]
+    notes: We are doing this shrine later when we need to wait on TOD for Bareeda Naag
 - _Npc::Rito<Chief>:
     coord: [-3626.75,-1843.5]
 - Revali Memory:
@@ -13,8 +16,6 @@ Medoh:
 - .dir(<N) TS
 - _Equipment::Bow<10 Arrows + Swallow>:
     coord: [-3793.25,-2317.5]
-- _Tod::Morning:
-    notes: This is supposed to set both TOD for darner and cycle for Sasa Kai, which is a 55 second window from 14:55 to 15:50. So be mindful of TOD
 - _Equipment::Bow<Falcon>:
     hide-icon-on-map: true
 - Enter Medoh:
@@ -23,6 +24,7 @@ Medoh:
 - _Chest<Ancient Core>:
     hide-icon-on-map: true
     comment: Inside Medoh
+    notes: If you forget this one, there is a backup later in Ketoh Wawai (dark forest shrine)
 - Windblight:
     split-type: UserDefined
     icon: medoh-done
@@ -34,11 +36,8 @@ Medoh:
     comment: On deck, right after medoh
 - _Equipment::Bow<Great Eagle Bow>:
     hide-icon-on-map: true
-- _Shrine::AkhVaquot
-- BLSS to Camp:
-    movements:
-    - to: [-3649,-1826.0083193647506]
-    - to: [-3479,-2085.1109248633434]
+- .dir(N>) to camp:
+    coord: [-3479,-2085.1109248633434]
 - _Chest<5 Shock Arrow>:
     notes: AA enemies so they don't bother you
 - BLSS to voltfin:

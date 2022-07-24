@@ -5,6 +5,7 @@ Rito:
     coord: [-3634.46, 292.22, -1784.51]
 - _Npc::Rito<Kheel's Mom>:
     coord: [-3668.51, 321.49, -1769.96]
+- _Shrine::AkhVaquot
 - .dir(.S) Turn
 - _Shrine::BareedaNaag
 - .dir(NE)

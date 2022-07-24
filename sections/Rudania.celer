@@ -30,9 +30,12 @@ Rudania:
     fury: 2
 - .gale() inside:
     gale: 1
+- .!!(EQUIP BARB):
+    notes: Equip before activating fight
 - Fireblight:
     split-type: UserDefined
     icon: rudania-done
+    notes: GEB 1 body 4 head.
 - SQ wb to talus quest:
     movements:
     - to: [1625.5,-2435.27733505561]

@@ -36,12 +36,15 @@ Naboris:
 - _Shrine::KayNoh
 - _Material<Flint>:
     hide-icon-on-map: true
+    notes: If you already have one, can skip this
 - _Npc<Sesami>:
     coord: [-2814,2239.51842145052]
-
 - _Shop<1 Winterwing 1 Darner>:
     comment: Buy from beedle
-    hide-icon-on-map: true
+    coord: [-2788.75,2249.832302286999]
+- _Npc<Rushroom Guy>:
+    coord: [-2791.25,2231.57507236287]
+
 - .dir(<W) + .dir(SW)
 - Kara Kara:
     icon: location
@@ -51,9 +54,9 @@ Naboris:
 - _Shop<1 Durian>:
     comment: For quest
     coord: [-3822.5,2878.1249885513744]
-- _Shop<Normal Fire Shock>:
+- _Shop<All Fire + Shock>:
     coord: [-3853.875,2912.5337231392577]
-    notes: Fire for TOD, shock for Ruta, normal for fighting stuff
+    notes: Fire for shrines, shock for Ruta + fighting stuff. Technically only need less than 10 fire arrows, but just in case
 - _Npc::Gerudo<Riju>:
     coord: [-3882.5,2964.225811328949]
 
@@ -129,12 +132,12 @@ Naboris:
     split-type: UserDefined
     icon: naboris-enter
     coord: [-2476,3764.5593782394317]
-- .gale():
+- .gale() inside Naboris:
     gale: 2
 - Thunderblight:
     split-type: UserDefined
     icon: naboris-done
-    notes: GEB 2 body 3 head
+    notes: GEB 2 body 3 head. (bomb self after exiting beast in case ragdoll glitch fails)
 - _Npc<Boots Guy>:
     movements:
     - to: [-3767.25,2865.0417949038665]

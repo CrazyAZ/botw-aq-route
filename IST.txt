@@ -15,11 +15,11 @@ Get 4 orb 1 glider
 # PLAT DONE
 
 # Satori Low
-Get 7 Lotus
+Get 5 Lotus
 Get 3 endura carrot
 # Satori High
 Eat 4 hylianshroom 4 spicy pepper
-Get 2 rushroom
+Get 4 rushroom
 # Mogg Latan
 Get orb
 Get 2 Wood 10 durian
@@ -29,7 +29,7 @@ Get razorshroom
 Get nay*fang
 Get 3 ancient arrow 
 Get 1 triboomerang 1 steellizalshield
-With 5 Lotus
+With 3 Lotus 2 rushroom
 Cook simmer
 Eat simmer
 # Kill up to 3 stalkers, order of picking up parts doesn't matter
@@ -57,7 +57,7 @@ with 2 Spring 2 wood 2 rush 2 Lotus 3 enduracarrot
 Break 5 Slots
 # Regular IST Dupe
 Reload
-# Check 3 shields to make sure dupe worked
+# Check 2 shields to make sure dupe worked
 Dnp 1 core 1 Shaft 2 Lotus 3 enduracarrot 2 razorshroom
 # Drop amber no need to pick up
 Drop amber from slot 2
