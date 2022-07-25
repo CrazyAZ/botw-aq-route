@@ -37,20 +37,25 @@ _route:
     - __use__ Rito
     - __use__ TarreyActivateZora
     - __use__ ZDQuests
+    - __use__ TarreyActivateHateno
     - __use__ Kak3Faron
   - Hateno + Tarrey Town:
-    - __use__ TarreyActivateHateno
     - __use__ Hateno
     - __use__ ForgottenTemple
     - __use__ TarreyFinal
   - Ganon:
     - _Warp::Shrine::KeoRuug
-    - trial korok
-    - wb + blss
+    - _Npc<Trial Korok>:
+        coord: [432.25,-2167.49078927474]
+    - .dir(N) + Acorn BLSS:
+        coord: [-256,-1060.8995733826514]
+    - Get Skew Bounce:
+        notes: Can also just kill him normally
     - Calamity:
         icon: calamity
         split-type: UserDefined
-  
+        notes: FURY + stasis 8AA headshots
     - Dark Beast:
         icon: ganon
         split-type: UserDefined
+        hide-icon-on-map: true

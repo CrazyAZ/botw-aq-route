@@ -2,9 +2,6 @@ Medoh:
 - _Warp::Shrine::MoggLatan:
     line-color: yellow
 - BLSS to rito
-- Activate shrine:
-    coord: [-3656,-1757.4047005683415]
-    notes: We are doing this shrine later when we need to wait on TOD for Bareeda Naag
 - _Npc::Rito<Chief>:
     coord: [-3626.75,-1843.5]
 - Revali Memory:

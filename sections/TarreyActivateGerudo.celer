@@ -15,7 +15,8 @@ TarreyActivateGerudo:
     notes: Strong wind
 - updraft + .dir(NE) super
 - _Shrine::KahMael
-- .dir(.N) Turn
+- .gale() + .dir(.N) Turn:
+    gale: 1
 - .!!(READ TABLET)
 - .!!(READ TABLET)
 - .!!(READ TABLET)

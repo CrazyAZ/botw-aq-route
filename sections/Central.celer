@@ -76,6 +76,9 @@ Central:
     coord: [347,1082.8428766757988]
 - _Npc<Chef Guy>:
     coord: [324,1107.8527806814545]
+- _Cook<Monster Cake>:
+    hide-icon-on-map: true
+    comment: Wheat Sugar Butter Extract
 - .dir(S>) Turn
 - Kill .enemy(Moblin):
     notes: Throw RGC at him

@@ -25,7 +25,7 @@ Eldin:
     hide-icon-on-map: true
 - _Npc<Greyson>:
     hide-icon-on-map: true
-    notes: Make night if past 9PM
+    notes: Should be night time already. If not, make night
 - .dir(<N) + .dir(N>):
     coord: [1644.75,-2463.0383285018875]
 - _Npc::Goron<Shrine Brother>:
@@ -46,6 +46,8 @@ Eldin:
 - .dir(<N) Turn
 - Rescue yunobo:
     coord: [1635,-2936.561622231986]
+- _Tod::Night:
+    notes: For Kilton + Xenoblade (<3AM) and East Akkala Stable (>5AM)
 - .dir(W.) Turn
 - _Boss::Talus::Igneo:
     coord: [1337,-3051.971476463712]
@@ -60,9 +62,10 @@ Eldin:
     - to: [1580,-3666.1171593680883]
       away: true
 - .dir(E) Fast Turn + midair
-- .gale() quest:
-    gale: 1
-    time-override: 60
+- _Npc<Gut Check Challenge>:
+    time-override: 40
+    coord: [2670.5,-3468.808037473142]
+    notes: 2 WB up to the final 5 red rupees
 - _Shrine::GoraeTorr
 - .dir(E) Turn:
     coord: [3322,-3429]
@@ -77,7 +80,7 @@ Eldin:
     - to: [3248,-3373.0527605101324]
     - to: [3330,-3426.1528503014133]
       warp: true
-- Drop down
+- SQ .dir(W)
 - _Equipment::Weapon<Korok Leaf>:
     coord: [3223.95, 83.06, -3393.09]
     notes: For Voo Lota quest and blue flame later
