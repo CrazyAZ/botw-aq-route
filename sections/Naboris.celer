@@ -9,11 +9,11 @@ Naboris:
     - to: [-3272,912.6005789029596]
 - _Tod::Noon:
     notes: For Sasa Kai. Put the wood right next to a luminous stone ore and shoot the ore with normal arrow. 
-      Make noon after melting ice
+      Make noon during or before melting ice
 - _Material<10 Luminous Stone>:
     comment: While melting ice
 - _Equipment::Weapon<Ice Rod>:
-    comment: Bomb Wizarobe
+    notes: Light your arrows and shoot wizarobe
 - _Shrine::KuhTakkar
 - .dir(<E) TS or BLSS
 - _Material<10 Berry>:
@@ -50,13 +50,7 @@ Naboris:
     icon: location
     coord: [-3264,2608.325643705958]
     split-type: UserDefined
-- BLSS to Gerudo Town
-- _Shop<1 Durian>:
-    comment: For quest
-    coord: [-3822.5,2878.1249885513744]
-- _Shop<All Fire + Shock>:
-    coord: [-3853.875,2912.5337231392577]
-    notes: Fire for shrines, shock for Ruta + fighting stuff. Technically only need less than 10 fire arrows, but just in case
+- BLSS or super to Gerudo Town
 - _Npc::Gerudo<Riju>:
     coord: [-3882.5,2964.225811328949]
 
@@ -117,7 +111,13 @@ Naboris:
     Phase 3: Mag the ball to kohga from the side and press B as the ball goes over the edge of the hole. Or just do normal kill"
 
 - _Warp::Shrine::DaqoChisay
-- .dir(S>) to Riju
+- _Shop<1 Durian>:
+    comment: For quest
+    coord: [-3822.5,2878.1249885513744]
+- _Shop<All Fire + Shock>:
+    coord: [-3853.875,2912.5337231392577]
+    notes: Fire for shrines, shock for Ruta + fighting stuff. Technically only need less than 10 fire arrows, but just in case
+- Run to Riju
 - Urbosa Memory:
     split-type: UserDefined
     icon: naboris-memory

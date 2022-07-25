@@ -37,6 +37,6 @@ Medoh:
     coord: [-3479,-2085.1109248633434]
 - _Chest<5 Shock Arrow>:
     notes: AA enemies so they don't bother you
-- BLSS to voltfin:
+- .dir(<E) voltfin:
     movements:
     - to: [-3009,-2138]

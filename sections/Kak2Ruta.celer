@@ -32,7 +32,7 @@ Kak2Ruta:
 - .dir(W)
 - .loc(Monument):
     coord: [3261.5,33.00277312158323]
-- .dir(<W)
+- .dir(W)
 - .loc(Monument):
     coord: [3093,74.51921377097187]
 - .dir(<N)

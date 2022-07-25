@@ -10,6 +10,10 @@ ZDQuests:
     comment: Twice
 - _Npc::ZoraFemale<Letter Girl>:
     coord: [3266.75,-480.7287559078686]
+- _Npc::ZoraFemale<Shrine Girl>:
+    coord: [3302.75,-518.9653855002334]
+- _Npc::ZoraMale<Finish Diving Quest>:
+    coord: [3292.625,-519.5906331003753]
 - _Npc::ZoraFemale<Hinox Lady>:
     coord: [3306.375,-538.6266836809618]
     comment: Twice
@@ -18,6 +22,3 @@ ZDQuests:
     comment: Twice
 - _Npc::ZoraMale<Kapson>:
     coord: [3332.5,-524.8712364778512]
-- _Npc::ZoraFemale<Lynel Lady>:
-    comment: Twice
-    coord: [3349.375,-509.8367705381688]
