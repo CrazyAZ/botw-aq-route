@@ -71,7 +71,7 @@ TarreyActivateGoron:
       If it's after 3PM, it will be really tight to make it for Darner Girl, and if you set TOD at darner girl, you have to set TOD again for Greyson. So just setting it once here is better.
 - _Npc<Balloon Girl>:
     coord: [1066,-1136.1687642563725]
-- .dir(S>) + .dir(E)
+- .dir(E) + .dir(S)
 - _Shrine::NamikaOzz:
     time-override: 30
     notes: Eat ATK 3, stasis + 4AA headshots with GEB. Snap. Grab axe and Frostspear in chest

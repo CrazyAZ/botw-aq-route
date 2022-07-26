@@ -40,15 +40,13 @@ Eldin:
 - _Npc::Goron<Bludo>:
     coord: [1705.75,-2447.75]
 - .dir(N>)
-- Activate Shrine:
-    notes: Doing later so TOD is more lenient
-    coord: [1754,-2545.7133086986178]
+- _Shrine::ShaeMosah
 - .dir(<N) Turn
 - Rescue yunobo:
     coord: [1635,-2936.561622231986]
+- .dir(W.) Turn
 - _Tod::Night:
     notes: For Kilton + Xenoblade (<3AM) and East Akkala Stable (>5AM)
-- .dir(W.) Turn
 - _Boss::Talus::Igneo:
     coord: [1337,-3051.971476463712]
     fury: 3
