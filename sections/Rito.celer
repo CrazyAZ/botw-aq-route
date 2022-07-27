@@ -43,7 +43,7 @@ Rito:
 - Run up 1 house
 - _Npc<Flint Guy>:
     comment: Twice
-- Drop out .dir(<W) Turn
+- Drop out .dir(W) TS
 - _Shrine::VooLota
 - Elevator BLSS
 - _Shrine::KahOkeo
