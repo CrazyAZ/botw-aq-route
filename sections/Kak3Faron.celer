@@ -22,7 +22,14 @@ Kak3Faron:
     comment: Talk until get honey apple
 - _Tod::Night:
     notes: For the night cucoo + firefly. Cannot be raining or there won't be fireflies
-- Rest 2 cucoos
+- _Npc::SheikaFemale<Arrow Quest Lady>:
+    comment: B, talk again
+    coord: [1826.5,1041.4893036738922]
+- 1 cucoo
+- Light torches with firerod
+- _Npc::SheikaFemale<Arrow Quest Lady>:
+    coord: [1826.5,1041.4893036738922]
+- Last cucoo
 - _Npc::SheikaMale<Cucoo Man>:
     coord: [1832.75,964.0030702417534]
 - _Npc::SheikaFemale<Firefly Lady>:
@@ -37,19 +44,11 @@ Kak3Faron:
 - _Tod::Night:
     hide-icon-on-map: true
     comment: After paya
-- Run to shrine:
-    notes: Man starts walkking at 10pm. No need to wb, just finish shrine before 10pm
 - _Shrine::TalohNaeg
 - _Equipment::Weapon<Traveller Sword>:
     coord: [1927.75,985.9673167813362]
     comment: Mag from water
-- _Npc::SheikaFemale<Arrow Quest Lady>:
-    comment: B, talk again
-    coord: [1826.5,1041.4893036738922]
-- Light torches with firerod
-- _Npc::SheikaFemale<Arrow Quest Lady>:
-    coord: [1826.5,1041.4893036738922]
-- Start following the guy to shrine
+    notes: Make sure you stay close to the guy and keep him in view
 - _Equipment::Weapon<Windcleaver>:
     coord: [2014,957.4560262148889]
     notes: Make sure you have empty slot. The windcleaver might despawn after the cutscene so make sure to pick it up

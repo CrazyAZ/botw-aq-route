@@ -47,7 +47,7 @@ Rito:
 - _Shrine::VooLota
 - Elevator BLSS
 - _Shrine::KahOkeo
-- .gale() + .dir(E) + .dir(E) + .dir(NE) + .dir(NE):
+- .gale() + .dir(E) + .dir(E) + .dir(NE):
     movements:
     - to: [-3864,-430.47716009038413]
     - to: [-3540,-758.6071006445873]
@@ -61,6 +61,7 @@ Rito:
     coord: [-2778.84, 348.24, 206.35]
 - _Tod::Night:
     coord: [-2776,189.5768550838884]
+    comment: Might need twice
 - _Shrine::MijahRokee
 - .dir(<N) Turn
 - _Shrine::ShaeLoya
@@ -69,7 +70,7 @@ Rito:
 - _Npc<Fairy Fountain Guy>:
     comment: Twice
     coord: [-2937.5,-563.4473106899122]
-- .dir(<<E) TS to red
+- .dir(<<E) super to red
 - .dir(NW) to orange
 - .dir(S) to green
 - _Shrine::TohYahsa

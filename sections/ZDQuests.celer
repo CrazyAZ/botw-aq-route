@@ -1,7 +1,8 @@
 ZDQuests:
-- _Tod::Noon:
-    notes: For ZD + kak quests
 - _Warp::Shrine::NeezYohma
+- _Npc::ZoraFemale<Shrine Girl>:
+    coord: [3300,-475.43938748538767]
+    notes: In front of statue
 - _Npc::ZoraMale<Frog Boy>:
     coord: [3302.25,-475.10152750659563]
     comment: Twice
@@ -10,8 +11,6 @@ ZDQuests:
     comment: Twice
 - _Npc::ZoraFemale<Letter Girl>:
     coord: [3266.75,-480.7287559078686]
-- _Npc::ZoraFemale<Shrine Girl>:
-    coord: [3302.75,-518.9653855002334]
 - _Npc::ZoraMale<Finish Diving Quest>:
     coord: [3292.625,-519.5906331003753]
 - _Npc::ZoraFemale<Hinox Lady>:
