@@ -82,6 +82,9 @@ Kak1Hateno:
 - Light pot with torch throw
 - _Cook<Endura Speed Attack>:
     comment: ORDER MATTERS
+- _Npc<Shrine Lady>:
+    coord: [3426.25,2162.2530702417534]
+    notes: Cannot do this quest when raining. You can talk to her on second visit
 - .dir(N) Smuggle blue flame:
     coord: [3437.5,1975]
 - 2 WB to Lab:

@@ -10,9 +10,6 @@ Hateno:
     comment: 8 Times
 - _Npc<Farmer>:
     coord: [3380.5,2095.976824626766]
-- _Npc<Shrine Lady>:
-    coord: [3426.25,2162.2530702417534]
-    notes: Cannot do this quest when raining
 - _Npc<Cricket Quest>:
     coord: [3447.25,2119.7362334321388]
     notes: Talk to guy, talk to lady in inn, talk to guy twice
