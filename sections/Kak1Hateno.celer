@@ -36,7 +36,7 @@ Kak1Hateno:
 - _Equipment::Shield<Lizal Shield>:
     hide-icon-on-map: true
 - _Cook<Speed Food>:
-    comment: 5 lotus, eat
+    comment: 3 lotus + 2 rushroom, eat
 - Run out:
     coord: [-319.75,-778.75] 
 - .dir(<S) Turn
