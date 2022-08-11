@@ -16,6 +16,7 @@ Get 4 orb 1 glider
 
 # Satori Low
 Get 5 Lotus
+Get forest*bow
 Get 3 endura carrot
 # Satori High
 Eat 4 hylianshroom 4 spicy pepper
@@ -39,17 +40,23 @@ Get fairy
 Get 1 knight*sword 1 core 1 orb
 # Daka Tuss
 Get 1 orb
-# Taloh Naeg
-Get 1 orb
+# Taloh Naeg, don't get orb
 # Hestu, RGC kill
+Equip royalclaymore
 # WB to 3 ore deposits get amber (don't break the rare one)
 Get 1 amber
-# BLSS to shop
+# BLSS to Myahm Agana
 Remove 8 durian
-# wb to cloth shop, get autosave
-Save as BackupAutosave
-# Glitch start
 Drop potlid
+Equip steellizalshield
+Drop trav*bow
+Equip forest*bow
+Get 1 orb
+Save as BackupAutosave
+# run to cloth shop
+
+# GLITCH START
+
 with 2 hylianshroom 2 spicypepper 2 apple 2 durian 2 screw
 Break 5 Slots
 Save
@@ -58,6 +65,7 @@ Break 5 Slots
 # Regular IST Dupe
 Reload
 # Check 2 shields to make sure dupe worked
+Equip steellizalshield
 Dnp 1 core 1 Shaft 2 Lotus 3 enduracarrot 2 razorshroom
 # Drop amber no need to pick up
 Drop amber from slot 2
@@ -66,7 +74,10 @@ Save
 Reload
 # WB to statue
 Sell 32 orb
-# lit cooking pot with arrow
+# light cooking pot with torch
+Equip torch
+Drop torch
+Get torch
 # The order you cook DOES matter
 with 5 enduracarrot
 cook wildgreen
@@ -80,7 +91,6 @@ Eat enduracarrot
 
 # FIRST HALF DONE
 
-Equip torch
 # go to purah get bombs+ and stasis+
 Remove 3 Shaft 3 Core
 #wb to shop
@@ -110,22 +120,22 @@ Eat 1 simmer 1 wildgreen 1 mushroomskewer
 #wb to shrine for autosave, make sure all weapon unequiped
 Save As AutoSave
 # drop bow and reload
-Drop trav*bow
+Drop forest*bow
 Reload
 Shoot 1 arrow
 Save
 Reload AutoSave
 # Set transfer for second round of corruption
-Drop trav*bow
+Drop forest*bow
 # Drop all except spring
-Drop all rush all wood all Shaft all amber all fairy
+Drop all wood all Shaft all amber all fairy
 # eat everything but endura food
 Eat 1 simmer 1 mushroom skewer
 # Equip the last weapon, whatever it is
 Equip royalclaymore
 Reload
 Save
-# drop the item you have in first and last slot, should be fairy + either wood or rushroom
+# drop the item you have in last slot, should be fairy
 Eat all fairy 
 dnp 4 Spring
 Reload
