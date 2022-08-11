@@ -42,13 +42,11 @@ Get 1 knight*sword 1 core 1 orb
 Get 1 orb
 # Taloh Naeg, don't get orb
 # Hestu, RGC kill
-Equip royalclaymore
 # WB to 3 ore deposits get amber (don't break the rare one)
 Get 1 amber
 # BLSS to Myahm Agana
 Remove 8 durian
 Drop potlid
-Equip steellizalshield
 Drop trav*bow
 Equip forest*bow
 Get 1 orb
@@ -65,7 +63,6 @@ Break 5 Slots
 # Regular IST Dupe
 Reload
 # Check 2 shields to make sure dupe worked
-Equip steellizalshield
 Dnp 1 core 1 Shaft 2 Lotus 3 enduracarrot 2 razorshroom
 # Drop amber no need to pick up
 Drop amber from slot 2
