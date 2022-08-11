@@ -54,7 +54,7 @@ Kak1Hateno:
 - _Shrine::KayaWan
 - BLSS
 - _Shrine::DakaTuss
-- .dir(E) + .dir(E>>) + .dir(E)
+- .dir(S) + .dir(E>>) + .dir(S)
 - _Npc::SheikaFemale<Impa>:
     coord: [1775,987]
 - Activate Shrine:
