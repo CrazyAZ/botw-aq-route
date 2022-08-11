@@ -4,8 +4,10 @@ Kak1Hateno:
     coord: [-2542,670.3406977945551]
     notes: 2 for IST, 3 for an early speedfood
     line-color: red
-- .dir(E) + .dir(N):
+- .dir(E)
+- _Equipment::Bow<Forest Dweller's Bow>:
     coord: [-2346,687.5794301253582]
+- .dir(N)
 - _Material<Endura Carrot, 3>:
     coord: [-2312.5,527.5160444891626]
 - .dir(N):
@@ -36,7 +38,7 @@ Kak1Hateno:
 - _Equipment::Shield<Lizal Shield>:
     hide-icon-on-map: true
 - _Cook<Speed Food>:
-    comment: 5 lotus, eat
+    comment: 3 lotus + 2 rushroom, eat
 - Run out:
     coord: [-319.75,-778.75] 
 - .dir(<S) Turn
@@ -54,7 +56,7 @@ Kak1Hateno:
 - _Shrine::KayaWan
 - BLSS
 - _Shrine::DakaTuss
-- .dir(E) + .dir(E>>) + .dir(E)
+- .dir(S) + .dir(E>>) + .dir(S)
 - _Npc::SheikaFemale<Impa>:
     coord: [1775,987]
 - Activate Shrine:
