@@ -4,8 +4,10 @@ Kak1Hateno:
     coord: [-2542,670.3406977945551]
     notes: 2 for IST, 3 for an early speedfood
     line-color: red
-- .dir(E) + .dir(N):
+- .dir(E)
+- _Equipment::Bow<Forest Dweller's Bow>:
     coord: [-2346,687.5794301253582]
+- .dir(N)
 - _Material<Endura Carrot, 3>:
     coord: [-2312.5,527.5160444891626]
 - .dir(N):
