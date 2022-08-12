@@ -16,10 +16,10 @@ Naboris:
     notes: Light your arrows and shoot wizarobe
 - _Shrine::KuhTakkar
     notes: Melt ice with piles of wood
-- .dir(<E) TS or BLSS
+- .dir(<W) TS or BLSS
 - _Material<10 Berry>:
     coord: [-3655.5,1531.2579003072733]
-- .dir(<E) Turn
+- .dir(<W) Turn
 - _Shrine::ShoDantu:
     notes: Farm luminous to 10
 - .dir(S) + .dir(E):
