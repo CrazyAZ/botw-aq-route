@@ -1,9 +1,9 @@
 Naboris:
 - _Warp::Shrine::MoggLatan:
     line-color: "#00ff00"
-- BLSS + .dir(E) + .dir(E)
+- BLSS and midair .dir(E) to lightning pedestal
 - _Shrine::KeehaYoog
-- BLSS to KT:
+- BLSS to Kuh Takkar:
     movements:
     - to: [-3568,674.5062927691179]
     - to: [-3272,912.6005789029596]
@@ -15,6 +15,7 @@ Naboris:
 - _Equipment::Weapon<Ice Rod>:
     notes: Light your arrows and shoot wizarobe
 - _Shrine::KuhTakkar
+    notes: Melt ice with piles of wood
 - .dir(<E) TS or BLSS
 - _Material<10 Berry>:
     coord: [-3655.5,1531.2579003072733]
@@ -27,8 +28,9 @@ Naboris:
     comment: "21"
     coord: [-3672,1845.2209658172305]
 - SQ to shrine
+    notes: shoot at sun 2:55-350
 - _Shrine::SasaKai
-- BLSS to gerudo, talk to guy
+- BLSS to gerudo, talk to Benja
 - _Shrine::DaqoChisay
 - BLSS
 - _Shrine::DakoTah
@@ -40,7 +42,7 @@ Naboris:
 - _Npc<Sesami>:
     coord: [-2814,2239.51842145052]
 - _Shop<1 Winterwing 1 Darner>:
-    comment: Buy from beedle
+    comment: Buy from Beedle
     coord: [-2788.75,2249.832302286999]
 - _Npc<Rushroom Guy>:
     coord: [-2791.25,2231.57507236287]
@@ -50,6 +52,7 @@ Naboris:
     icon: location
     coord: [-3264,2608.325643705958]
     split-type: UserDefined
+- Buy Gerudo clothes
 - BLSS or super to Gerudo Town
 - _Npc::Gerudo<Riju>:
     coord: [-3882.5,2964.225811328949]
@@ -61,6 +64,7 @@ Naboris:
     coord: [-2158,2143.1041901394974]
 - .dir(SE)
 - _Material<Electric Darner>:
+    notes: Under pebble in water
     coord: [-2220.85, 356.03, 2204.36]
 - .dir(N>) Turn
 - _Npc<Friend 1>:
@@ -79,8 +83,8 @@ Naboris:
 - _Shrine::JeeNoh
 - .dir(N>) Turn + .dir(N) Turn
 - _Shrine::DahKaso:
-    comment: core
-- .dir(S)
+    notes: Get core in chest
+- .dir(S.)
 - _Npc<Horse Quest>:
     movements:
     - to: [-1628,2090.083193647508]
