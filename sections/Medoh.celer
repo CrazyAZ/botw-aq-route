@@ -22,6 +22,8 @@ Medoh:
     hide-icon-on-map: true
     comment: Inside Medoh
     notes: If you forget this one, there is a backup later in Ketoh Wawai (dark forest shrine)
+- _Chest<Ice Arrows>:
+    hide-icon-on-map: true
 - Windblight:
     split-type: UserDefined
     icon: medoh-done
