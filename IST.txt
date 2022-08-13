@@ -85,12 +85,14 @@ Cook 1 mushroom skewer
 Drop 2 core 2 Shaft 2 Spring
 Pickup 1 core 2 Shaft 2 Spring
 Eat enduracarrot
+# Talk to Secret of the Cedars lady 
 
 # FIRST HALF DONE
 
 # go to purah get bombs+ and stasis+
 Remove 3 Shaft 3 Core
-#wb to shop
+# Start Sheep Rustlers
+# WB to shop
 # Set item order for corruption, order is 3x999, AMBER, SPRING, FAIRY
 dnp 1 amber
 dnp 4 Spring
@@ -143,6 +145,7 @@ Sell all Shaft
 sell 1500 simmer
 Eat mushroomskewer
 Pickup 5 Shaft
+# Complete The Statue's Bargain
 # WB to bolson, talk, get hammer
 Get hammer
 # if you only have 2 amber per stack, merge the stack and save+reload, you will have 8 instead of 6
