@@ -139,6 +139,7 @@ Reload
 # CORRUPTION DONE, GG
 Drop 5 Shaft
 Sell all Shaft
+# Sell the first speedfood
 sell 1500 simmer
 Eat mushroomskewer
 Pickup 5 Shaft
