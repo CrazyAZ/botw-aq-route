@@ -1,7 +1,7 @@
 Naboris:
 - _Warp::Shrine::MoggLatan:
     line-color: "#00ff00"
-- BLSS and midair .dir(E) to lightning pedestal
+- BLSS and WB .dir(E) to lightning pedestal
 - _Shrine::KeehaYoog
 - BLSS to Kuh Takkar:
     movements:
