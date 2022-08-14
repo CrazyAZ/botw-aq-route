@@ -1,7 +1,8 @@
 Naboris:
 - _Warp::Shrine::MoggLatan:
     line-color: "#00ff00"
-- BLSS and WB .dir(E) to lightning pedestal
+- BLSS and WB .dir(E):
+    notes: Lightning pedestal on cliff
 - _Shrine::KeehaYoog
 - BLSS to Kuh Takkar:
     movements:
@@ -10,11 +11,13 @@ Naboris:
 - _Tod::Noon:
     notes: For Sasa Kai. Put the wood right next to a luminous stone ore and shoot the ore with normal arrow. 
       Make noon during or before melting ice
+    coord: [-3071.21, 1236.58]
 - _Material<10 Luminous Stone>:
     comment: While melting ice
 - _Equipment::Weapon<Ice Rod>:
     notes: Light your arrows and shoot wizarobe
-- _Shrine::KuhTakkar
+    coord: [ -3076.7,1226.90]
+- _Shrine::KuhTakkar:
     notes: Melt ice with piles of wood
 - .dir(<W) TS or BLSS
 - _Material<10 Berry>:
@@ -27,8 +30,8 @@ Naboris:
 - _Npc<Kass>:
     comment: "21"
     coord: [-3672,1845.2209658172305]
-- SQ to shrine
-    notes: shoot at sun 2:55-350
+- SQ to shrine:
+    notes: Shoot at sun 2:55-3:50
 - _Shrine::SasaKai
 - BLSS to gerudo, talk to Benja
 - _Shrine::DaqoChisay
@@ -102,10 +105,10 @@ Naboris:
     coord: [-2814,2239.51842145052]
 
 - _Warp::Shrine::KuhTakkar
-- .dir(E) kill some wolves:
+- .dir(W) kill some wolves:
     coord: [-3204,1168.4056680716558]
 - _Material<Raw Gourmet Meat>
-- .dir(<E) Turn:
+- .dir(<W) Turn:
     coord: [-3516,1356.1299405542022]
 - Clip in
 - _Equipment::Bow<Duplex Bow>
@@ -151,7 +154,7 @@ Naboris:
     coord: [-3888.5,2970.333490767677]
 - _Npc::Gerudo<Guard Captain>:
     coord: [-3911.75,2929.317248198402]
-- _Npc::Gerudo<Entrance Guard>:
+- _Npc::Gerudo<Side Entrance Guard>:
     coord: [-3916.75,2873.2950632257334]
 - _Npc::Gerudo<Historian>:
     coord: [-3880.25,2879.5475392271474]

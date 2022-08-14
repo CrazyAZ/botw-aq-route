@@ -24,23 +24,28 @@ Kak2Ruta:
     movements:
     - to: [3234.5,1181.649154325174]
       away: true
-- .dir(W) + blss:
+- .dir(E) + blss:
     time-override: 40
     coord: [3477.5,1075.1241962309214]
 - .loc(Monument):
     coord: [3397,10.99405759660658]
+    icon: location
 - .dir(W)
 - .loc(Monument):
     coord: [3261.5,33.00277312158323]
+    icon: location
 - .dir(W)
 - .loc(Monument):
     coord: [3093,74.51921377097187]
+    icon: location
 - .dir(<N)
 - .loc(Monument):
     coord: [3061,-225.5996342968965]
+    icon: location
 - .dir(E>)
 - .loc(Monument):
     coord: [3258.5,-146.06813955891084]
+    icon: location
 - .dir(N) Super:
     coord: [3325,-515.3022702526114]
 - Enter Fish Drama:
