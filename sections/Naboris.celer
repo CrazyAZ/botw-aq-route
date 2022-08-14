@@ -86,7 +86,7 @@ Naboris:
 - _Shrine::JeeNoh
 - .dir(N>) Turn + .dir(N) Turn
 - _Shrine::DahKaso:
-    notes: Get core in chest
+    comment: Get core
 - .dir(S.)
 - _Npc<Horse Quest>:
     movements:
