@@ -3,7 +3,7 @@ TarreyActivateGoron:
     movements:
     - to: [3284.5,-430.83222614419265]
       warp: true
-- finish quest
+- Finish Divine Beast Vah Ruta quest
 - _Chest<Lightscale Trident>:
     coord: [3331.5,-539.2848849971588]
     notes: Don't throw away. For durability transfer later
@@ -17,7 +17,8 @@ TarreyActivateGoron:
 - _Npc::ZoraMale<Diving Quest>:
     coord: [3292.625,-519.5906331003753]
     comment: midair after swimming up.
-- .dir(W) Activate Shrine
+- .dir(W) Activate Shrine:
+    coord: [3082.75, -455.625]
 - .!!(DO NOT THROW TRIDENT)
 - _Shrine::DagahKeek
 - .dir(<<W)
@@ -28,6 +29,7 @@ TarreyActivateGoron:
 - .dir(S.) Turn (can super)
 - .loc(Monument):
     coord: [2838.5,188.50332156742115]
+    icon: npc-zora-male
 - .dir(S>) to deer:
     coord: [2492,339.23175373234244]
 - Ride to pedestal:
@@ -42,10 +44,13 @@ TarreyActivateGoron:
 - .dir(E)
 - .loc(Monument):
     coord: [2867,-71.59968009139811]
+    icon: npc-zora-male
 - Run to the other side
 - .loc(Monument):
     coord: [2879,-33.08442792268852]
-- .dir(W>), Letter BLSS:
+    icon: npc-zora-male
+- .dir(W>)
+- _Npc<Letter Quest>:
     movements:
     - to: [2732.5,-82.47801310744399]
     - to: [2661,-147.41660827237956]
@@ -55,7 +60,7 @@ TarreyActivateGoron:
     time-override: 30
 - .dir(<E) TS
 - _Shrine::SohKofi
-- Elevator BLSS
+- Elevator BLSS .dir(E)
 - _Shrine::ShehRata
 - .dir(<N) Turn (super)
 - _Shrine::MirroShaz:

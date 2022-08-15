@@ -24,28 +24,28 @@ Kak2Ruta:
     movements:
     - to: [3234.5,1181.649154325174]
       away: true
-- .dir(E) + blss:
+- .dir(E) + BLSS:
     time-override: 40
     coord: [3477.5,1075.1241962309214]
 - .loc(Monument):
     coord: [3397,10.99405759660658]
-    icon: location
+    icon: npc-zora-male
 - .dir(W)
 - .loc(Monument):
     coord: [3261.5,33.00277312158323]
-    icon: location
+    icon: npc-zora-male
 - .dir(W)
 - .loc(Monument):
     coord: [3093,74.51921377097187]
-    icon: location
+    icon: npc-zora-male
 - .dir(<N)
 - .loc(Monument):
     coord: [3061,-225.5996342968965]
-    icon: location
+    icon: npc-zora-male
 - .dir(E>)
 - .loc(Monument):
     coord: [3258.5,-146.06813955891084]
-    icon: location
+    icon: npc-zora-male
 - .dir(N) Super:
     coord: [3325,-515.3022702526114]
 - Enter Fish Drama:
@@ -68,4 +68,4 @@ Kak2Ruta:
     icon: ruta-done
     coord: [3675,-188.23615728933328]
     time-override: 240
-    notes: GEB 6AA all head
+    notes: Cryo, Stasis, GEB 6AA all head
