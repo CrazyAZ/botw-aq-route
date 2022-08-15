@@ -2,9 +2,11 @@ Kak2Ruta:
 - _Warp::Shrine::TalohNaeg:
     line-color: yellow
 - _Npc<Pumpkin Man>:
+    comment: The Stolen Heirloom
     coord: [1841,984.478013107444]
     time-override: 20
 - SQ to Impa:
+    icon: npc-sheika-female
     coord: [1774.5,984.9782111875575]
     time-override: 20
 - .dir(<E) up:
@@ -14,7 +16,7 @@ Kak2Ruta:
 - .dir(N) to tree stump:
     coord: [1871,814.9108639490987]
 - _Material<Nightshade>
-- BLSS to shrine:
+- BLSS .dir(E) to shrine:
     time-override: 30
 - _Shrine::DowNaeh
 - .dir(N>) + .dir(E) Fast Turn:
@@ -24,7 +26,7 @@ Kak2Ruta:
     movements:
     - to: [3234.5,1181.649154325174]
       away: true
-- .dir(E) + BLSS:
+- .dir(E) + BLSS .dir(N):
     time-override: 40
     coord: [3477.5,1075.1241962309214]
 - .loc(Monument):

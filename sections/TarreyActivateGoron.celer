@@ -9,14 +9,15 @@ TarreyActivateGoron:
     notes: Don't throw away. For durability transfer later
 - _Npc::ZoraMale<Fronk>:
     coord: [3340.375,-535.4719221439664]
+    comment: A Wife Washed Away
     notes: At SPA area 8PM to 7AM, otherwise fixing pillars. If you mess up too much it will be after 7AM, in which case it will be better to do diving quest first, then fronk, then WB to shrine from fronk, and do lynel lady on second visit
     time-override: 30 # for 2 quests
-- _Npc::ZoraFemale<Lynel Lady>:
-    comment: Twice
+- _Npc::ZoraFemale<Lynel Safari Lady>:
+    comment: Talk twice
     coord: [3349.375,-509.8367705381688]
-- _Npc::ZoraMale<Diving Quest>:
+- _Npc::ZoraMale<Diving is a Beauty Quest>:
     coord: [3292.625,-519.5906331003753]
-    comment: midair after swimming up.
+    comment: midair after swimming up
 - .dir(W) Activate Shrine:
     coord: [3082.75, -455.625]
 - .!!(DO NOT THROW TRIDENT)
@@ -35,6 +36,7 @@ TarreyActivateGoron:
 - Ride to pedestal:
     time-override: 20
 - _Npc<Kass>:
+    comment: The Crowned Beast
     coord: [2576,481.28800848446645]
 - _Shrine::MezzaLo
 - .dir(N>) TS
@@ -51,6 +53,7 @@ TarreyActivateGoron:
     icon: npc-zora-male
 - .dir(W>)
 - _Npc<Letter Quest>:
+    comment: Special Delivery
     movements:
     - to: [2732.5,-82.47801310744399]
     - to: [2661,-147.41660827237956]
@@ -75,6 +78,7 @@ TarreyActivateGoron:
     notes: For Balloon Girl (7AM-8PM), Darner Girl (8AM-8PM) and Greyson (>9PM). 
       If it's after 3PM, it will be really tight to make it for Darner Girl, and if you set TOD at darner girl, you have to set TOD again for Greyson. So just setting it once here is better.
 - _Npc<Balloon Girl>:
+    comment: Ballon Flight
     coord: [1066,-1136.1687642563725]
 - .dir(E) + .dir(S)
 - _Shrine::NamikaOzz:
@@ -86,12 +90,13 @@ TarreyActivateGoron:
 - _Equipment::Weapon<Axe and Frostspear>:
     hide-icon-on-map: true
     comment: For Nebb
-- .gale() + BLSS:
+- .gale() + BLSS .dir(E):
     gale: 1
     coord: [2052,-726.1045862997235]
 - _Shrine::TahMuhl
 - .dir(E) + .dir(NE) to stable
-- _Npc<Shrine Guy>:
+- _Npc<Shrine Painting Guy>:
+    comment: A Landscape of a Stable
     coord: [2610,-1140.0332774590024]
 - .dir(<E) to shrine
 - _Shrine::MoaKeet
@@ -104,6 +109,7 @@ TarreyActivateGoron:
     coord: [3256,-1740.5062927691179]
 - SQ to stable
 - _Npc<Darner Quest>:
+    comment: Little Sister's Big Request
     coord: [3142,-1690.6525216870973]
     notes: Talk to big sis give flower, 2ng option, then little sis, big sis, little sis, big sis
     time-override: 30
@@ -113,7 +119,7 @@ TarreyActivateGoron:
     comment: From the korok
     notes: 1 for baked apple, 1 for fruit cake
 - _Shrine::DahHesho
-- .dir(N.) Turn to TT:
+- .dir(N.) Turn to Tarrey Town:
     coord: [3984.5,-1597.5796282054716]
 - _Npc<Hudson>:
-    comment: Twice
+    comment: Talk twice

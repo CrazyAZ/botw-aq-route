@@ -24,7 +24,7 @@ Get 4 rushroom
 # Mogg Latan
 Get orb
 Get 2 Wood 10 durian
-# blss to gate
+# BLSS to gate
 Get 1 royalclaymore 1 guard*claymore
 Get razorshroom
 Get nay*fang

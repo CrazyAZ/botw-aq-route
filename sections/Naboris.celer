@@ -4,7 +4,7 @@ Naboris:
 - BLSS and WB .dir(E):
     notes: Lightning pedestal on cliff
 - _Shrine::KeehaYoog
-- BLSS to Kuh Takkar:
+- BLSS .dir(E) to Kuh Takkar:
     movements:
     - to: [-3568,674.5062927691179]
     - to: [-3272,912.6005789029596]
@@ -28,14 +28,15 @@ Naboris:
 - .dir(S) + .dir(E):
     coord: [-3874,1827.213834933158]
 - _Npc<Kass>:
-    comment: "21"
+    comment: "Sign of the Shadow"
+    notes: Text 21
     coord: [-3672,1845.2209658172305]
 - SQ to shrine:
     notes: Shoot at sun 2:55-3:50
 - _Shrine::SasaKai
-- BLSS to gerudo, talk to Benja
+- BLSS .dir(S) to Gerudo, talk to Benja
 - _Shrine::DaqoChisay
-- BLSS
+- BLSS .dir(NE)
 - _Shrine::DakoTah
 - .dir(E>) + .dir(E)
 - _Shrine::KayNoh
@@ -43,11 +44,13 @@ Naboris:
     hide-icon-on-map: true
     notes: If you already have one, can skip this
 - _Npc<Sesami>:
+    comment: Missing in Action
     coord: [-2814,2239.51842145052]
 - _Shop<1 Winterwing 1 Darner>:
     comment: Buy from Beedle
     coord: [-2788.75,2249.832302286999]
 - _Npc<Rushroom Guy>:
+    comment: Rushroom Rush!
     coord: [-2791.25,2231.57507236287]
 
 - .dir(<W) + .dir(SW)
@@ -56,13 +59,13 @@ Naboris:
     coord: [-3264,2608.325643705958]
     split-type: UserDefined
 - Buy Gerudo clothes
-- BLSS or super to Gerudo Town
+- BLSS or Super .dir(SW) to Gerudo Town
 - _Npc::Gerudo<Riju>:
     coord: [-3882.5,2964.225811328949]
 
 - _Warp::Shrine::KehNamut:
     line-color: red
-- BLSS toward single tree
+- BLSS .dir(W) toward single tree
 - _Equipment::Weapon<Fire Rod>:
     coord: [-2158,2143.1041901394974]
 - .dir(SE)
@@ -89,6 +92,7 @@ Naboris:
     comment: Get core
 - .dir(S.)
 - _Npc<Horse Quest>:
+    comment: Good-Sized Horse
     movements:
     - to: [-1628,2090.083193647508]
     - to: [-1650,2265.6527197672103]
@@ -100,7 +104,7 @@ Naboris:
 - .dir(N.)
 - _Shrine::JolooNah
 - .dir(<W) + .dir(<<W) Turn:
-    notes: can also blss but it's a bit monkaSTEER
+    notes: can also BLSS but it's a bit monkaSTEER
 - _Npc<Sesami>:
     coord: [-2814,2239.51842145052]
 
@@ -110,7 +114,7 @@ Naboris:
 - _Material<Raw Gourmet Meat>
 - .dir(<W) Turn:
     coord: [-3516,1356.1299405542022]
-- Clip in
+- Clip in to Yiga Hideout
 - _Equipment::Bow<Duplex Bow>
 - Kill .enemy(Kohga):
     notes: "Phase 1: spam AA after screen goes out. 
@@ -131,10 +135,11 @@ Naboris:
     coord: [-3869,2947.3173472384588]
 - .dir(E>>) Super:
     coord: [-3435,3128.181045223386]
-- Ride sand seal to Misae Suma
+- Ride sand seal .dir(SW) to Misae Suma
 - _Npc::Gerudo<Shrine Lady>:
+    comment: The Perfect Drink
     coord: [-2989,3760.314947379851]
-- .dir(E) backflip to naboris
+- .dir(E) backflip to Naboris
 - Enter Naboris:
     split-type: UserDefined
     icon: naboris-enter
@@ -149,19 +154,25 @@ Naboris:
     movements:
     - to: [-3767.25,2865.0417949038665]
       warp: true
-    comment: Equip Snowboots
+    comment: The Eighth Heroine
+    notes: Equip snowboots
 - _Npc::Gerudo<Riju + Thunderhelm>:
     coord: [-3888.5,2970.333490767677]
 - _Npc::Gerudo<Guard Captain>:
+    comment: The Search for Barta
     coord: [-3911.75,2929.317248198402]
 - _Npc::Gerudo<Side Entrance Guard>:
+    comment: The Silent Swordswomen
     coord: [-3916.75,2873.2950632257334]
 - _Npc::Gerudo<Historian>:
+    comment: The Seven Heroines
     coord: [-3880.25,2879.5475392271474]
-    comment: "112"
+    notes: Text 112
 - _Npc::Gerudo<Bar Lady>:
+    comment: The Perfect Drink
     coord: [-3852.75,2860.289913142792]
 - _Npc::Gerudo<Trash Girl>:
+    comment: The Mystery Polluter
     coord: [-3834.75,2853.287140021209]
 - .dir(N>) Turn
 - _Npc::Gerudo<Ice Quest>:
