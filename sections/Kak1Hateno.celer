@@ -109,11 +109,13 @@ Kak1Hateno:
 - .dir(SW)
 - _Npc<The Statue's Bargain>:
     coord: [3285.75,2196.75]
-- .dir(<S) to Bolson
+- .dir(<S) to Bolson:
+    coord: [3327.5,2282]
 - _Equipment::Weapon<1 Hammer>:
     hide-icon-on-map: true
     notes: For breaking ores
+- Hylian Homeowner:
+    icon: location
 - Omagadupe:
     icon: camera-plus
     split-type: UserDefined
-    coord: [3327.5,2282]
