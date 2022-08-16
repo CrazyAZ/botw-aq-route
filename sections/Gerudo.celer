@@ -9,13 +9,14 @@ Gerudo:
     - to: [-4023,595]
     - to: [-4038,881]
 - Kill .enemy(Lynel):
+    notes: Headshot with shock arrows, spin to win with RGC, can eat stam food to maintain spin
     time-override: 60
 - _Material<Lynel Hoof>
 - _Snap::Quest<Big Sword>:
     movements: 
     - to: [-3986,970]
       away: true
-    notes: You can snap from where the lynel was. Also keep an eye on farosh and shoot a scale
+    notes: You can snap from where the lynel was. Also keep an eye on Farosh and shoot a scale
 - _Material<Farosh Scale>:
     coord: [-4150,788]
 - .dir(<N) Turn:
@@ -26,7 +27,7 @@ Gerudo:
       away: true
 - .dir(S>) Turn
 - _Shrine::KemaKosassa
-- BLSS
+- BLSS .dir(S)
 - _Shrine::KemaZoos
 - .dir(S>>) + .dir(S.) Turn
 - _Boss::Molduga:
@@ -34,12 +35,13 @@ Gerudo:
     fury: 3
     comment: .fury(), Get Guts
 - _Shrine::ThoKayu
-- BLSS
+- BLSS .dir(S)
 - _Shrine::HawaKoth:
-    comment: Snap backup guardian
+    comment: Get outside skew
+    notes: Snap backup guardian
 - _Snap::Quest<Gerudo Skeleton>:
     coord: [-4846.5,3763.3366904384147]
-- _Npc::Gerudo<Durian Lady>:
+- _Npc::Gerudo<Give Barta durian>:
     coord: [-4832.625,3733.598231800006]
 - .dir(<<E) Turn + .dir(NE) midairs:
     notes: Equip gerudo outfit middle
