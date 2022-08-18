@@ -171,7 +171,7 @@ Naboris:
 - _Npc::Gerudo<Bar Lady>:
     comment: The Perfect Drink
     coord: [-3852.75,2860.289913142792]
-- _Npc::Gerudo<Trash Girl>:
+- _Npc::Gerudo<Berry Girl>:
     comment: The Mystery Polluter
     coord: [-3834.75,2853.287140021209]
 - .dir(N>) Turn
