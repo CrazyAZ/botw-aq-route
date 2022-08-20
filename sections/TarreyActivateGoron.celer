@@ -30,7 +30,7 @@ TarreyActivateGoron:
 - .dir(S.) Turn (can super)
 - .loc(Monument):
     coord: [2838.5,188.50332156742115]
-    icon: npc-zora-male
+    icon: marker-blue
 - .dir(S>) to deer:
     coord: [2492,339.23175373234244]
 - Ride to pedestal:
@@ -46,11 +46,11 @@ TarreyActivateGoron:
 - .dir(E)
 - .loc(Monument):
     coord: [2867,-71.59968009139811]
-    icon: npc-zora-male
+    icon: marker-blue
 - Run to the other side
 - .loc(Monument):
     coord: [2879,-33.08442792268852]
-    icon: npc-zora-male
+    icon: marker-blue
 - .dir(W>)
 - _Npc<Letter Quest>:
     comment: Special Delivery

@@ -38,7 +38,7 @@ Kak1Hateno:
 - _Equipment::Shield<Lizal Shield>:
     hide-icon-on-map: true
 - _Cook<Speed Food>:
-    comment: 3 lotus + 2 rushroom, eat
+    comment: 3 lotus + 2 rushroom, Eat
 - Run out:
     coord: [-319.75,-778.75] 
 - .dir(<S) Turn
@@ -54,7 +54,8 @@ Kak1Hateno:
 - _Npc<Riverbed Reward>:
     notes: Keep the weapon for IST
     coord: [823,146]
-- _Shrine::KayaWan
+- _Shrine::KayaWan:
+    comment: Get core
 - BLSS .dir(E>)
 - _Shrine::DakaTuss
 - .dir(S) + .dir(E>>) + .dir(S)

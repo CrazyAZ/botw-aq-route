@@ -4,11 +4,11 @@ Eldin:
 - .dir(N) + midair
 - .loc(Monument):
     coord: [3224.5,-742.9558281347754]
-    icon: npc-zora-male
+    icon: marker-blue
 -  .dir(W>) + .dir(W) + .dir(W)
 - .loc(Monument):
     coord: [3707.5,-523.3688709651187]
-    icon: npc-zora-male
+    icon: marker-blue
 - .dir(N) to tree:
     coord: [3745,-630.4112601093257]
     notes: Pick up the shock arrows so Link doesn't get distracted
