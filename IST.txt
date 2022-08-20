@@ -138,7 +138,7 @@ Save
 Eat all fairy 
 dnp 4 Spring
 Reload
-# CORRUPTION DONE, GG
+
 Drop 5 Shaft
 Sell all Shaft
 # Sell the first speedfood
@@ -153,6 +153,9 @@ Get hammer
 Save
 Drop 5 Shaft
 Reload
+
+# CORRUPTION DONE, GG
+
 # merge stacks between talking to bolson
 Drop 4 Spring
 Pickup 4 Spring
