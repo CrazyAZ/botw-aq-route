@@ -68,7 +68,7 @@ Naboris:
 - BLSS .dir(W) toward single tree
 - _Equipment::Weapon<Fire Rod>:
     coord: [-2158,2143.1041901394974]
-- .dir(SE)
+- .dir(SW)
 - _Material<Electric Darner>:
     notes: Under pebble in water
     coord: [-2220.85, 356.03, 2204.36]

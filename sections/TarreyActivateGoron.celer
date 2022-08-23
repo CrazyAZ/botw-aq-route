@@ -31,7 +31,7 @@ TarreyActivateGoron:
 - .loc(Monument):
     coord: [2838.5,188.50332156742115]
     icon: marker-blue
-- .dir(S>) to deer:
+- .dir(E>) to deer:
     coord: [2492,339.23175373234244]
 - Ride to pedestal:
     time-override: 20
@@ -80,7 +80,7 @@ TarreyActivateGoron:
 - _Npc<Balloon Girl>:
     comment: Ballon Flight
     coord: [1066,-1136.1687642563725]
-- .dir(E) + .dir(S)
+- .dir(W) + .dir(S)
 - _Shrine::NamikaOzz:
     comment: Snap and kill
     time-override: 30
@@ -112,7 +112,7 @@ TarreyActivateGoron:
 - _Npc<Darner Quest>:
     comment: Little Sister's Big Request
     coord: [3142,-1690.6525216870973]
-    notes: Talk to big sis give flower, 2ng option, then little sis, big sis, little sis, big sis
+    notes: Talk to big sis give flower, 2nd option, then little sis, big sis, little sis, big sis
     time-override: 30
 - .dir(E) super + midairs
 - _Material<2 Apples>:
