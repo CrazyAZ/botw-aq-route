@@ -31,7 +31,7 @@ TarreyActivateGoron:
 - .loc(Monument):
     coord: [2838.5,188.50332156742115]
     icon: marker-blue
-- .dir(E>) to deer:
+- .dir(<E) to deer:
     coord: [2492,339.23175373234244]
 - Ride to pedestal:
     time-override: 20
