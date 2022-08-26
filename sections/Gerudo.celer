@@ -10,7 +10,7 @@ Gerudo:
     - to: [-4023,595]
     - to: [-4038,881]
 - Kill .enemy(Lynel):
-    notes: Headshot with shock arrows, spin to win with RGC, can eat stam food to maintain spin
+    notes: Eat attack food, headshot with shock arrows, spin to win with RGC, can eat stam food to maintain spin
     time-override: 60
 - _Material<Lynel Hoof>
 - _Snap::Quest<Big Sword>:

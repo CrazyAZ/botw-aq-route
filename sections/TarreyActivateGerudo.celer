@@ -9,6 +9,8 @@ TarreyActivateGerudo:
     time-override: 40
 - .dir(E) to Tarrey Town:
     coord: [3984.5,-1597.5796282054716]
+- _Npc<Hudson>:
+    comment: Talk twice
 - .dir(S) + midairs
 - _Shrine::KenaiShakah:
     comment: Behind bomb-able rocks
