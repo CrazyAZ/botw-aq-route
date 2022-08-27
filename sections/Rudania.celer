@@ -40,17 +40,17 @@ Rudania:
     split-type: UserDefined
     icon: rudania-done
     notes: Stasis, GEB 1 body 4 head
-- SQ wb to talus quest:
+- SQ .dir(NE) to talus quest:
     movements:
     - to: [1625.5,-2435.27733505561]
       warp: true
     - to: [1667.25,-2466.789814102736]
     notes: GC quests 8AM - 8PM. Make noon if not
-- _Npc::Goron<Talus Guy>:
-    comment: Twice
+- _Npc::Goron<The Road to Respect>:
+    comment: Talk twice
 - Run
 - _Npc::Gerudo<Amber Lady>:
-    comment: Twice
+    comment: Talk twice
     coord: [1678.75,-2445.781494737985]
 - _Npc::Goron<Bludo>:
     coord: [1708.5,-2451.0614048350653]
@@ -58,4 +58,5 @@ Rudania:
 - .dir(S) + .dir(SE):
     coord: [1684,-2365.9891055937787]
 - _Npc::Goron<Drillshaft Kid>:
+    comment: Death Mountain's Secret
     coord: [1794.5,-2251.943943327989]
