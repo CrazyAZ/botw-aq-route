@@ -46,6 +46,7 @@ TarreyActivateGerudo:
 - _Npc<Robbie>:
     comment: Robbie's Research
     notes: Your AA would reset to 999 after he gives you 3
+- _Equipment::Weapon<Ancient Short Sword>
 - _Npc<Robbie's Wife>:
     comment: The Skull's Eye
 - .dir(N>) Turn:

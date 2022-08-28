@@ -58,6 +58,7 @@ Kak1Hateno:
     comment: Get core
 - BLSS .dir(E>)
 - _Shrine::DakaTuss
+- .!!(EAT BEFORE MIDAIR)
 - .dir(S) + .dir(E>>) + .dir(S)
 - _Npc::SheikaFemale<Impa>:
     coord: [1775,987]
@@ -80,7 +81,7 @@ Kak1Hateno:
 - SQ to shop:
     coord: [3360.5,2135.5]
 - .!!(IST Part 1):
-    notes: "IST sim file: .link(https://github.com/iTNTPiston/botwaq/blob/main/IST.txt) I will make a video in the future"
+    notes: "IST sim file: .link(https://github.com/CrazyAZ/botw-aq-route/blob/main/IST.txt)"
 - .dir(N)
 - Trade 5 stam 3 heart:
     coord: [3436.25,2100.010102085769]
