@@ -50,11 +50,12 @@ Kak3Faron:
 - _Equipment::Weapon<Traveller Sword>:
     coord: [1927.75,985.9673167813362]
     comment: Mag from waterfall by entrance
-    notes: Make sure you stay close to the guy and keep him in view
+    notes: Make sure you stay close to Dorian and keep him in view
 - _Equipment::Weapon<Windcleaver>:
     coord: [2014,957.4560262148889]
     notes: Make sure you have empty slot. The windcleaver might despawn after the cutscene so make sure to pick it up
-- _Shrine::LaknaRokee
+- _Shrine::LaknaRokee:
+    notes: Can approach Dorian after "Show yourself!"
 - .dir(S.) + .dir(SE) super
 - _Shrine::KamUrog:
     notes: Shoot cursed statue

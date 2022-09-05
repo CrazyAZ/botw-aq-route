@@ -31,7 +31,7 @@ TarreyActivateGoron:
 - .loc(Monument):
     coord: [2838.5,188.50332156742115]
     icon: npc-zora-male
-- .dir(<E) to deer:
+- .dir(<W) to deer:
     coord: [2492,339.23175373234244]
 - Ride to pedestal:
     time-override: 20

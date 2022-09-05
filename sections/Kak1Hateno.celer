@@ -65,9 +65,9 @@ Kak1Hateno:
 - Activate Taloh Naeg Shrine:
     coord: [1833.5,906.1630199330921]
 - .dir(<<S) Super to camp
-- RGC slam kill 3 bokos:
-    notes: drop down and X->Y. Need the big AOE slam so keep high drop speed
+- RGC slam kill 3 bokos
 - _Npc<Hestu>:
+    notes: Talk twice, turn in korok seed
     comment: The Priceless Maracas
     coord: [2069.5,1425]
 - .dir(<S) to ore
@@ -116,7 +116,7 @@ Kak1Hateno:
 - _Equipment::Weapon<1 Hammer>:
     hide-icon-on-map: true
     notes: For breaking ores
-- Hylian Homeowner:
+- _Npc<Hylian Homeowner>:
     icon: location
 - Omagadupe:
     icon: camera-plus

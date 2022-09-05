@@ -52,6 +52,7 @@ Rudania:
 - _Npc::Gerudo<Amber Lady>:
     comment: Talk twice
     coord: [1678.75,-2445.781494737985]
+- Finish Divine Beast Vah Rudania quest
 - _Npc::Goron<Bludo>:
     coord: [1708.5,-2451.0614048350653]
     notes: No need to grab reward

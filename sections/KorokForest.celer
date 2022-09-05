@@ -38,6 +38,7 @@ KorokForest:
     hide-icon-on-map: true
     comment: on the way to shrine
 - _Shrine::DaagChokah:
+    notes: Can approach Oaki after "Woo! I finally made it!"
     time-override: 300
 
 KorokForest2:

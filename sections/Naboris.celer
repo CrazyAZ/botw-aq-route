@@ -149,13 +149,14 @@ Naboris:
 - Thunderblight:
     split-type: UserDefined
     icon: naboris-done
-    notes: GEB 2 body 3 head. (bomb self after exiting beast in case ragdoll glitch fails)
+    notes: Stasis, GEB 2 body 3 head. (bomb self after exiting beast in case ragdoll glitch fails)
 - _Npc<Boots Guy>:
     movements:
     - to: [-3767.25,2865.0417949038665]
       warp: true
     comment: The Eighth Heroine
     notes: Equip snowboots
+- Finish Divine Beast Vah Naboris quest
 - _Npc::Gerudo<Riju + Thunderhelm>:
     coord: [-3888.5,2970.333490767677]
 - _Npc::Gerudo<Guard Captain>:

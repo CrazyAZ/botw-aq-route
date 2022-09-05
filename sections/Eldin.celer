@@ -52,6 +52,7 @@ Eldin:
     coord: [1337,-3051.971476463712]
     fury: 3
     comment: .fury()
+    notes: Pick up flint (need 11)
 - .dir(<E)
 - _Shrine::ShoraHah
 - Minecart + .dir(N>):
