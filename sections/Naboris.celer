@@ -2,7 +2,7 @@ Naboris:
 - _Warp::Shrine::MoggLatan:
     line-color: "#00ff00"
 - BLSS and WB .dir(E):
-    notes: Lightning pedestal on cliff
+    notes: Lightning pedestal on cliff. Shoot with FDB
 - _Shrine::KeehaYoog
 - BLSS .dir(E) to Kuh Takkar:
     movements:
@@ -51,6 +51,7 @@ Naboris:
     coord: [-2788.75,2249.832302286999]
 - _Npc<Rushroom Guy>:
     comment: Rushroom Rush!
+    notes: Talk twice
     coord: [-2791.25,2231.57507236287]
 
 - .dir(<W) + .dir(SW)

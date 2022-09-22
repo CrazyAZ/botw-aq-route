@@ -5,7 +5,8 @@ Rito:
     comment: Drop down toward shrine
     coord: [-3634.46, 292.22, -1784.51]
 - _Npc::Rito<Kheel's Mom>:
-    comment: Platform near shrine
+    comment: Find Kheel
+    notes: Platform near shrine
     coord: [-3668.51, 321.49, -1769.96]
 - _Shrine::AkhVaquot
 - .dir(.S) Turn + Shoot fire arrow

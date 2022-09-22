@@ -23,7 +23,7 @@ ForgottenTemple:
     - to: [-2117,-2702.8201432572932]
     - to: [-1851,-3091.974249585295]
 - _Snap::Quest<Stalhorse>
-- .gale() + .dir(S) Turn:
+- .gale() + .dir(<S) Turn:
     gale: 1
 - _Shrine::RinOyaa
 - _Npc<Stalhorse Lady>:

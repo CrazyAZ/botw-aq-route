@@ -32,7 +32,7 @@ TarreyActivateGerudo:
     coord: [4243.71, -2746.65]
     comment: A Shady Customer
     notes: Talk twice
-- _Npc<Sitting Lady>:
+- _Npc<Cooking Pot Lady>:
     comment: The Spring of Power
     notes: 2nd text option
     coord: [4245.96, -2747.83]

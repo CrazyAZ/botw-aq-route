@@ -24,6 +24,7 @@ Eldin:
     notes: Get 1-2 flints here in case rng bad later
 - _Npc<Lizard Guy>:
     comment: Fireproof Lizard Roundup
+    notes: Equip Flamebreaker Armor
 - _Npc<Greyson>:
     notes: Should be night time already. If not, make night
 - .dir(<N) + .dir(N>):

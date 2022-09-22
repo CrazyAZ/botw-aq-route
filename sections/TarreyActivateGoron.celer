@@ -62,7 +62,8 @@ TarreyActivateGoron:
     - to: [1780,-78.75002289725126]
     time-override: 30
 - .dir(<E) TS
-- _Shrine::SohKofi
+- _Shrine::SohKofi:
+    comment: Knight's Bow (optional)
 - Elevator BLSS .dir(E)
 - _Shrine::ShehRata
 - .dir(<N) Turn (super)
@@ -93,6 +94,7 @@ TarreyActivateGoron:
     comment: For Nebb
 - .gale() + BLSS .dir(E):
     gale: 1
+    notes: Can skip gale here and save for Gut Check
     coord: [2052,-726.1045862997235]
 - _Shrine::TahMuhl
 - .dir(E) + .dir(NE) to stable
